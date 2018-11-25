@@ -5,18 +5,20 @@ import {
     NavLink
 } from 'react-router-dom';
 
-import { Home } from './Home';
-import { News } from './News';
-import { RulesForms } from './RulesForms';
-import { Bookings } from './Bookings';
-import { Contact } from './Contact';
+import { Home } from './home/Home';
+import { News } from './news/News';
+import { RulesForms } from './rulesForms/RulesForms';
+import { Bookings } from './bookings/Bookings';
+import { Contact } from './contact/Contact';
 
 export const App = () =>
     <HashRouter>
         <div>
             <div className="w3-top">
                 <div className="w3-bar w3-white w3-wide w3-padding w3-card">
-                    <a href="/" className="w3-bar-item w3-button"><strong>108</strong> Reflections</a>
+                    <span className="w3-bar-item" style={{textDecoration: 'none'}}>
+                        <strong>108 Reflections</strong>
+                    </span>
 
                     <div className="w3-right w3-hide-small">
                         <NavLink exact to="/" className="w3-bar-item w3-button">HOME</NavLink>
@@ -34,5 +36,11 @@ export const App = () =>
                 <Route path="/bookings" component={Bookings} />
                 <Route path="/contact" component={Contact} />
             </div>
+
+            {/* Footer */}
+            <footer className="w3-center w3-black w3-padding-16">
+                <p>Copyright &copy; 108 Reflections 2018</p>
+            </footer>
+            {/* Footer */}
         </div>
     </HashRouter>

@@ -14,5 +14,25 @@
 <body>
     <div id="root"></div>
     <script src="./main.bundle.js"></script>
+
+    <script>
+        function initMap() {
+            var revenue = {
+                lat: -37.798656,
+                lng: 144.943745
+            };
+
+            const map = new google.maps.Map(
+                document.getElementById('myMap'),
+                {zoom: 15, center: revenue}
+            );
+
+            const marker = new google.maps.Marker({
+                position: revenue,
+                map: map
+            });
+        };
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeSvev37L7LK8UsyAk0L9XleKXddxGuPw&callback=initMap"></script>
 </body>
 </html>
