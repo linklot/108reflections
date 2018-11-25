@@ -25,6 +25,10 @@ const cardHr = {
 const cardP = {
     height: 4
 };
+const iconImg = {
+    borderRadius: '8pt',
+    boxShadow: '5px 5px 5px rgba(100, 100, 100, .5)'
+};
 
 export const Home = () =>
     <div>
@@ -32,7 +36,7 @@ export const Home = () =>
             <img className="w3-image" src="./images/architect.jpg" width={1500} height={800} alt="Architecture"></img>
             <div className="w3-display-middle w3-margin-top w3-center">
                 <h1 className="w3-xxlarge w3-text-white">
-                    <span className="w3-padding w3-black w3-opacity-min w3-round-medium">This is 108 Reflections</span>
+                    <img style={iconImg} src="./images/icon.jpg"></img>
                 </h1>
             </div>
         </header>

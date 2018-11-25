@@ -17,7 +17,7 @@ export const App = () =>
             <div className="w3-top">
                 <div className="w3-bar w3-white w3-wide w3-padding w3-card">
                     <span className="w3-bar-item" style={{textDecoration: 'none'}}>
-                        <strong>108 Reflections</strong>
+                        <strong>Reflections</strong>
                     </span>
 
                     <div className="w3-right w3-hide-small">
