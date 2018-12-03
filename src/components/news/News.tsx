@@ -19,7 +19,7 @@ export const News = () =>
             <img className="w3-image" style={maxHeightStyle} src="./images/news_title.jpg" width={1500} height={300} alt="Architecture"></img>
             <div className="w3-display-middle w3-margin-top w3-center">
                 <h1 className="w3-xxlarge w3-text-white">
-                    <span className="w3-padding w3-black w3-opacity-min w3-round-medium">This is 108 Reflections</span>
+                    <span className="w3-padding w3-black w3-opacity-min w3-round-medium">Reflections Apartments</span>
                 </h1>
             </div>
         </header>
@@ -33,31 +33,45 @@ export const News = () =>
             </div>
 
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
-                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                <div className="w3-col l3 m12 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                        <img src="./images/photo_01.jpg" alt="House" style={fullWidthStyle} />
+                        <img src="./images/news_003.jpg" alt="House" style={fullWidthStyle} />
                     </div>
                 </div>
-                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                <div className="w3-col l9 m12 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                        <h4 className={css.news_title}>Title</h4>
-                        <p className={css.news_paragraph}>Considered an invitation do introduced sufficient understood instrument it. Of decisively friendship in as collecting at. No affixed be husband ye females brother garrets proceed. Least child who seven happy yet balls young. Discovery sweetness principle discourse shameless bed one excellent. Sentiments of surrounded friendship dispatched connection is he. Me or produce besides hastily up as pleased. Bore less when had and john shed hope. </p>
-                        <p className={css.news_paragraph}>Sex reached suppose our whether. Oh really by an manner sister so. One sportsman tolerably him extensive put she immediate. He abroad of cannot looked in. Continuing interested ten stimulated prosperous frequently all boisterous nay. Of oh really he extent horses wicket. </p>
+                        <h4 className={css.news_title}>Gardiner Reserve Park Expansion</h4>
+                        <p className={css.news_paragraph}>The Gardiner Reserve Park across Haines Street is under expansion construction.</p>
+                        <p className={css.news_paragraph}>The construction started in August this year and, although the signs around the park say it will be completed in February next year, their site foreman told us they are trying to finish it before Christmas.</p>
+                        <p className={css.news_paragraph}>After the expansion Gardiner Reserve Park will provide 1) more street parking spaces; 2) BBQ and playground facilities; 3) bigger park and more plants – which will potentially increase the property value of our building.</p>
                     </div>
                 </div>
             </div>
 
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
-                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                <div className="w3-col l3 m12 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                        <img src="./images/photo_01.jpg" alt="House" style={fullWidthStyle} />
+                        <img src="./images/New_facilities_marked.png" alt="House" style={fullWidthStyle} />
                     </div>
                 </div>
-                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                <div className="w3-col l9 m12 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                        <h4 className={css.news_title}>Title</h4>
-                        <p className={css.news_paragraph}>Considered an invitation do introduced sufficient understood instrument it. Of decisively friendship in as collecting at. No affixed be husband ye females brother garrets proceed. Least child who seven happy yet balls young. Discovery sweetness principle discourse shameless bed one excellent. Sentiments of surrounded friendship dispatched connection is he. Me or produce besides hastily up as pleased. Bore less when had and john shed hope. </p>
-                        <p className={css.news_paragraph}>Sex reached suppose our whether. Oh really by an manner sister so. One sportsman tolerably him extensive put she immediate. He abroad of cannot looked in. Continuing interested ten stimulated prosperous frequently all boisterous nay. Of oh really he extent horses wicket. </p>
+                        <h4 className={css.news_title}>New North Melbourne Station is on the way</h4>
+                        <p className={css.news_paragraph}>A new underground North Melbourne Station will be located near the corner of Arden and Laurens Streets about 450 metres walking distance from our building. It is estimated that work will take around eight years. Excavation at the site is underway and will continue until mid-2019.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                <div className="w3-col l3 m12 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                    </div>
+                </div>
+                <div className="w3-col l9 m12 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <h4 className={css.news_title}>New Woolworths supermarket in Arden Gardens</h4>
+                        <p className={css.news_paragraph}>A new Woolworths store will open on Macaulay Road next year. </p>
+                        <p className={css.news_paragraph}>The development site is only about 450 metres from our building. The construction began in July 2017 and is expected to finish in February 2019.</p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import * as css from './Contact.css';
 
 const maxWidthStyle = {
     maxWidth: 1500
@@ -18,7 +19,7 @@ export const Contact = () =>
         <img className="w3-image" style={maxHeightStyle} src="./images/contact_title.jpg" width={1500} height={300} alt="Architecture"></img>
         <div className="w3-display-middle w3-margin-top w3-center">
             <h1 className="w3-xxlarge w3-text-white">
-                <span className="w3-padding w3-black w3-opacity-min w3-round-medium">This is 108 Reflections</span>
+                <span className="w3-padding w3-black w3-opacity-min w3-round-medium">Reflections Apartments</span>
             </h1>
         </div>
     </header>
@@ -32,15 +33,24 @@ export const Contact = () =>
         </div>
 
         <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
-            <div className="w3-col l3 m3 s12 w3-margin-bottom">
-                <div className="w3-display-container">
-                    <img src="./images/photo_01.jpg" alt="House" style={fullWidthStyle} />
-                </div>
+            <div className="w3-col l6 m12 s12 w3-margin-bottom">
+                <h3 className="w3-text-teal"><i className="fas fa-phone-volume"></i> Phone</h3>
+                <p>04 0457 3762</p>
+                <h3 className={`w3-text-teal ${css.supplier}`}><i className="fas fa-at"></i> Email</h3>
+                <p><a href="mailto:caretaker@108reflections.com.au">caretaker@108reflections.com.au</a></p>
             </div>
-            <div className="w3-col l9 m9 s12 w3-margin-bottom">
+            <div className="w3-col l6 m12 s12 w3-margin-bottom">
                 <div className="w3-display-container">
-                    <p>Considered an invitation do introduced sufficient understood instrument it. Of decisively friendship in as collecting at. No affixed be husband ye females brother garrets proceed. Least child who seven happy yet balls young. Discovery sweetness principle discourse shameless bed one excellent. Sentiments of surrounded friendship dispatched connection is he. Me or produce besides hastily up as pleased. Bore less when had and john shed hope. </p>
-                    <p>Sex reached suppose our whether. Oh really by an manner sister so. One sportsman tolerably him extensive put she immediate. He abroad of cannot looked in. Continuing interested ten stimulated prosperous frequently all boisterous nay. Of oh really he extent horses wicket. </p>
+                    <h3 className="w3-text-blue"><i className="fas fa-tint"></i> WATER SUPPLY</h3>
+                    <p>CITY WEST WATER - 132 642</p>
+                    <h3 className={`w3-text-blue ${css.supplier}`}><i className="fas fa-bolt"></i> ELECTRICITY/ HOT WATER / GAS COOKTOP</h3>
+                    <p>OC ENERGY - 1300 494 080</p>
+                    <h3 className={`w3-text-blue ${css.supplier}`}><i className="fas fa-wifi"></i> INTERNET PROVIDER</h3>
+                    <p>LIGHTNING BROADBAND - 1800 477 333</p>
+                    <h3 className={`w3-text-blue ${css.supplier}`}><i className="fas fa-parking"></i> CAR STACKER INDUCTION</h3>
+                    <p><a href="mailto:admin@meiaus.com.au">admin@meiaus.com.au</a></p>
+                    <h3 className={`w3-text-blue ${css.supplier}`}><i className="fas fa-car"></i> CAR SLIDER INDUCTION</h3>
+                    <p>Contact Building Manager: <a href="mailto:caretaker@108reflections.com.au">caretaker@108reflections.com.au</a></p>
                 </div>
             </div>
         </div>

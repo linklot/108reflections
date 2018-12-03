@@ -39,7 +39,7 @@ export const App = () =>
 
             {/* Footer */}
             <footer className="w3-center w3-black w3-padding-16">
-                <p>Copyright &copy; 108 Reflections 2018</p>
+                <p>Copyright &copy; Reflections Apartments 2018</p>
             </footer>
             {/* Footer */}
         </div>

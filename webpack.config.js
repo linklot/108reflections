@@ -54,7 +54,8 @@ module.exports = {
             { from: './public/index.html', to: './' },
             { from: './public/w3.css', to: './' },
             { from: './public/favicon.ico', to: './' },
-            { from: './public/images', to: './images/' }
+            { from: './public/images', to: './images/' },
+            { from: './public/pdf', to: './pdf/'}
         ]),
     ]
 }
