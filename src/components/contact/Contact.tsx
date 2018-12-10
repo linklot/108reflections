@@ -35,7 +35,7 @@ export const Contact = () =>
         <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
             <div className="w3-col l6 m12 s12 w3-margin-bottom">
                 <h3 className="w3-text-teal"><i className="fas fa-phone-volume"></i> Phone</h3>
-                <p>04 0457 3762</p>
+                <p>0404 573 762</p>
                 <h3 className={`w3-text-teal ${css.supplier}`}><i className="fas fa-at"></i> Email</h3>
                 <p><a href="mailto:caretaker@108reflections.com.au">caretaker@108reflections.com.au</a></p>
             </div>

@@ -34,18 +34,22 @@ module.exports = {
             { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' },
             {
                 test: /\.css$/,
-                include: path.join(__dirname, 'src/components'),
+                include: [
+                    path.join(__dirname, 'src/components'),
+                    path.join(__dirname, 'node_modules')
+                ],
                 use: [
                   'style-loader',
                   {
                     loader: 'typings-for-css-modules-loader',
                     options: {
                       modules: true,
-                      namedExport: true
+                      namedExport: true,
+                      camelCase: true
                     }
                   }
                 ]
-              }
+            },
         ]
     },
     plugins: [

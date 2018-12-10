@@ -8,8 +8,9 @@ import {
 import { Home } from './home/Home';
 import { News } from './news/News';
 import { RulesForms } from './rulesForms/RulesForms';
-import { Bookings } from './bookings/Bookings';
+import Bookings from './bookings/Bookings';
 import { Contact } from './contact/Contact';
+import { BookingType } from '../models/BookingType';
 
 export const App = () =>
     <HashRouter>
@@ -20,12 +21,16 @@ export const App = () =>
                         <strong>Reflections Apartments</strong>
                     </span>
 
-                    <div className="w3-right w3-hide-small">
+                    <div className="w3-right w3-hide-medium w3-hide-small">
                         <NavLink exact to="/" className="w3-bar-item w3-button">HOME</NavLink>
                         <NavLink to="/news" className="w3-bar-item w3-button">NEWS</NavLink>
                         <NavLink to="/rulesForms" className="w3-bar-item w3-button">RULES &amp; FORMS</NavLink>
                         <NavLink to="/bookings" className="w3-bar-item w3-button">BOOKINGS</NavLink>
                         <NavLink to="/contact" className="w3-bar-item w3-button">CONTACT US</NavLink>
+                    </div>
+
+                    <div className="w3-right w3-hide-large">
+                        <i className="w3-bar-item fa fa-bars"></i>
                     </div>
                 </div>
             </div>
@@ -33,7 +38,7 @@ export const App = () =>
                 <Route exact path="/" component={Home} />
                 <Route path="/news" component={News} />
                 <Route path="/rulesForms" component={RulesForms} />
-                <Route path="/bookings" component={Bookings} />
+                <Route path="/bookings" render={(routeProps) => (<Bookings bookingMode={BookingType.NA} />)} />
                 <Route path="/contact" component={Contact} />
             </div>
 

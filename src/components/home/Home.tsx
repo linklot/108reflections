@@ -25,18 +25,14 @@ const cardHr = {
 const cardP = {
     height: 4
 };
-const iconImg = {
-    borderRadius: '8pt',
-    boxShadow: '5px 5px 5px rgba(100, 100, 100, .5)'
-};
 
 export const Home = () =>
     <div>
         <header className="w3-display-container w3-content w3-wide" style={maxWidthStyle}>
             <img className="w3-image" src="./images/architect.jpg" width={1500} height={800} alt="Architecture"></img>
             <div className="w3-display-middle w3-margin-top w3-center">
-                <h1 className="w3-xxlarge w3-text-white">
-                    <img style={iconImg} src="./images/icon.jpg"></img>
+                <h1 className="w3-xxlarge">
+                    <div className={css.iconContainer}><img src="./images/icon_trans.png"></img></div>
                 </h1>
             </div>
         </header>
@@ -100,7 +96,7 @@ export const Home = () =>
                                 <div className={`w3-center ${css.cardHeader}`}><i className="fas fa-mobile-alt w3-text-teal"></i></div>
                                 <div className={`w3-center ${css.cardTitle}`}>PHONE</div>
                                 <div style={cardP}><hr style={cardHr} /></div>
-                                <div className={`w3-center ${css.cardBody}`}>03 1234 5678</div>
+                                <div className={`w3-center ${css.cardBody}`}>0404 573 762</div>
                             </div>
                         </div>
                     </div>
