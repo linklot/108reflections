@@ -36,16 +36,16 @@ module.exports = {
                 test: /\.css$/,
                 include: path.join(__dirname, 'src/components'),
                 use: [
-                  'style-loader',
-                  {
-                    loader: 'typings-for-css-modules-loader',
-                    options: {
-                      modules: true,
-                      namedExport: true
+                    'style-loader',
+                    {
+                        loader: 'typings-for-css-modules-loader',
+                        options: {
+                            modules: true,
+                            namedExport: true
+                        }
                     }
-                  }
                 ]
-              }
+            },
         ]
     },
     plugins: [
@@ -54,7 +54,8 @@ module.exports = {
             { from: './public/index.html', to: './' },
             { from: './public/w3.css', to: './' },
             { from: './public/favicon.ico', to: './' },
-            { from: './public/images', to: './images/' }
+            { from: './public/images', to: './images/' },
+            { from: './public/pdf', to: './pdf/' }
         ]),
     ]
 }

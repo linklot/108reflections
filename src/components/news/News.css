@@ -1,3 +1,9 @@
 .news_title, .news_paragraph {
     margin-top: 0;
 }
+
+.iconImg {
+    border-radius: 8pt;
+    box-shadow: 5px 5px 5px rgba(100, 100, 100, .5);
+    height: 120px;
+}

@@ -88,7 +88,7 @@ export const Home = () =>
                                 <div className={`w3-center ${css.cardHeader}`}><i className="fas fa-envelope w3-text-teal"></i></div>
                                 <div className={`w3-center ${css.cardTitle}`}>EMAIL</div>
                                 <div style={cardP}><hr style={cardHr} /></div>
-                                <div className={`w3-center ${css.cardBody}`}>caretaker@108reflections.com.au</div>
+                                <div className={`w3-center ${css.cardBody}`}>bm@108reflections.com.au</div>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ export const Home = () =>
                                 <div className={`w3-center ${css.cardHeader}`}><i className="fas fa-mobile-alt w3-text-teal"></i></div>
                                 <div className={`w3-center ${css.cardTitle}`}>PHONE</div>
                                 <div style={cardP}><hr style={cardHr} /></div>
-                                <div className={`w3-center ${css.cardBody}`}>03 1234 5678</div>
+                                <div className={`w3-center ${css.cardBody}`}>0404 573 762</div>
                             </div>
                         </div>
                     </div>

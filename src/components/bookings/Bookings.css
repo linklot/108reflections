@@ -1,0 +1,46 @@
+.booking_button {
+    font-size: 18px;
+}
+.booking_button:hover {
+    background-color: #4CAF50;
+    color: #FFF;
+}
+.booking_activeButton {
+    background-color: #4CAF50;
+    color: #FFF;
+}
+.move_button {
+    margin-left: 60px;
+}
+.hideForm {
+    display: none;
+}
+.showForm {
+    display: block;
+}
+
+.timeLabel {
+    min-width: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.formLabel {
+    font-size: 18px;
+}
+.required {
+    color: red;
+}
+.bookingTextArea {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    padding: 10px;
+    color: #666;
+    height: 120px;
+}
+.showConfimModal {
+    display: block;
+}
+.dateCss {
+
+}
