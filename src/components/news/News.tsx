@@ -56,7 +56,7 @@ export const News = () =>
                 <div className="w3-col l9 m9 s12 w3-margin-bottom">
                     <div className="w3-display-container">
                         <h4 className={css.news_title}>New North Melbourne Station is on the way</h4>
-                        <p className={css.news_paragraph}>Woolworths Arden Gardens store has been open since February 2019. The new store is only about 450 metres from our building.</p>
+                        <p className={css.news_paragraph}>A new underground North Melbourne Station will be located near the corner of Arden and Laurens Streets about 450 metres walking distance from our building. It is estimated that work will take around eight years. Excavation at the site is underway and will continue until mid-2019.</p>
                     </div>
                 </div>
             </div>
@@ -69,8 +69,7 @@ export const News = () =>
                 <div className="w3-col l9 m9 s12 w3-margin-bottom">
                     <div className="w3-display-container">
                         <h4 className={css.news_title}>New Woolworths supermarket in Arden Gardens</h4>
-                        <p className={css.news_paragraph}>A new Woolworths store will open on Macaulay Road next year.</p>
-                        <p className={css.news_paragraph}>The development site is only about 450 metres from our building. The construction began in July 2017 and is expected to finish in February 2019.</p>
+                        <p className={css.news_paragraph}>Woolworths Arden Gardens store has been open since February 2019. The new store is only about 450 metres from our building.</p>
                     </div>
                 </div>
             </div>
