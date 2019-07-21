@@ -9,6 +9,7 @@ export interface IState {
     bookingEmail: any,
     bookingComment: any,
     hideForm: any,
+    hideNote: any,
     bookingValidFirstDay: any,
     bookingValidLastDay: any,
     bbqValidFromTime: any,

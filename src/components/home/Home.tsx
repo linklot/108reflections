@@ -44,23 +44,14 @@ export const Home = () =>
         <div className="w3-content w3-padding" style={maxWidthStyle}>
             {/* Photos section */}
             <div className="w3-container w3-padding-32">
-                <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">Photos</h3>
             </div>
 
             <div className="w3-row-padding">
-                <div className="w3-col l4 m4 w3-margin-bottom">
+                <div className="w3-col l12 m12 w3-margin-bottom">
                     <div className="w3-display-container">
-                        <img src="./images/photo_01.jpg" alt="House" style={fullWidthStyle} />
-                    </div>
-                </div>
-                <div className="w3-col l4 m4 w3-margin-bottom">
-                    <div className="w3-display-container">
-                        <img src="./images/photo_02.jpg" alt="House" style={fullWidthStyle} />
-                    </div>
-                </div>
-                <div className="w3-col l4 m4 w3-margin-bottom">
-                    <div className="w3-display-container">
-                        <img src="./images/photo_03.jpg" alt="House" style={fullWidthStyle} />
+                        <h5><strong>To Reflections Residents and Owners,</strong></h5>
+                        <p>Welcome to the Reflections Building Management website! This website is created and maintained by your building manager to provide general information and updates to all residents and investment owners. We are endeavouring to make this site useful and informative to you.</p>
+                        <p>Yours sincerely,<br />Building Management Team</p>
                     </div>
                 </div>
             </div>
@@ -68,7 +59,7 @@ export const Home = () =>
 
             {/* About section */}
             <div className="w3-container w3-padding-32">
-                <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">Contact Us</h3>
+                <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">Building Manager Contact Details</h3>
                 <div className="w3-col l4 m4 w3-margin-bottom">
                     <div className="w3-card-4" style={cardContainerStyle}>
                         <div className="w3-card">
@@ -100,7 +91,7 @@ export const Home = () =>
                                 <div className={`w3-center ${css.cardHeader}`}><i className="fas fa-mobile-alt w3-text-teal"></i></div>
                                 <div className={`w3-center ${css.cardTitle}`}>PHONE</div>
                                 <div style={cardP}><hr style={cardHr} /></div>
-                                <div className={`w3-center ${css.cardBody}`}>0404 573 762</div>
+                                <div className={`w3-center ${css.cardBody}`}>0490 792 204</div>
                             </div>
                         </div>
                     </div>
@@ -110,7 +101,7 @@ export const Home = () =>
 
             {/* Map section */}
             <div className="w3-row-padding">
-                <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">Map</h3>
+                <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">Location</h3>
                 <div className="w3-col l12 m12 s12">
                     <Map />
                 </div>
