@@ -41,7 +41,7 @@ export const Contact = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l6 m12 s12 w3-margin-bottom">
                     <h3 className="w3-text-teal"><i className="fas fa-phone-volume"></i> Building Manager Phone</h3>
-                    <p>0404 573 762</p>
+                    <p>0404 573 762<br />0490 792 204</p>
                     <h3 className={`w3-text-teal ${css.supplier}`}><i className="fas fa-at"></i> Email</h3>
                     <p><a href="mailto:bm@108reflections.com.au">bm@108reflections.com.au</a></p>
                     <p>Building Manager on site hours:<br />Mon to Fri 8am to 6pm<br />Sat 9am to 1pm (Sun and Public Holiday excluded)</p>
@@ -53,7 +53,7 @@ export const Contact = () =>
                         <p>CITY WEST WATER - 132 642</p>
                         <h3 className={`w3-text-blue ${css.supplier}`}><i className="fas fa-bolt"></i> ELECTRICITY/ HOT WATER / GAS COOKTOP</h3>
                         <p>OC ENERGY - 1300 494 080 (During the transition to Origin at the moment)</p>
-                        <p>Hot Water Services: 1800 002 438</p>
+                        <p>Building roof hot water system emergency service: 1800 002 438</p>
                         <h3 className={`w3-text-blue ${css.supplier}`}><i className="fas fa-wifi"></i> INTERNET PROVIDER</h3>
                         <p>LIGHTNING BROADBAND - 1300 596 426</p>
                         <h3 className={`w3-text-blue ${css.supplier}`}><i className="fas fa-parking"></i> CAR STACKER INDUCTION</h3>

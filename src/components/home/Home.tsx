@@ -91,7 +91,7 @@ export const Home = () =>
                                 <div className={`w3-center ${css.cardHeader}`}><i className="fas fa-mobile-alt w3-text-teal"></i></div>
                                 <div className={`w3-center ${css.cardTitle}`}>PHONE</div>
                                 <div style={cardP}><hr style={cardHr} /></div>
-                                <div className={`w3-center ${css.cardBody}`}>0490 792 204</div>
+                                <div className={`w3-center ${css.cardBody}`}>0404 573 762<br />0490 792 204</div>
                             </div>
                         </div>
                     </div>
