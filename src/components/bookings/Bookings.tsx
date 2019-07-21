@@ -41,6 +41,7 @@ export default class Bookings extends React.Component<IProps, IState> {
         this.state = {
             bookingMode: this.props.bookingMode === undefined ? BookingType.NA : this.props.bookingMode,
             hideForm: true,
+            hideNote: true,
             bookingValidFirstDay: moment().add(1, 'days'),
             bookingValidLastDay: moment().add(2, 'months'),
             bookingDate: moment().add(1, 'days'),
@@ -74,6 +75,18 @@ export default class Bookings extends React.Component<IProps, IState> {
     }
 
     changeBookingMode = (bookingMode: BookingType) => (event: any) => {
+        if (bookingMode === BookingType.HARD_WASTE) {
+            const _note = ReactHtmlParser(this.bookingNotes.hardWasteNote);
+            this.setState({
+                bookingMode: bookingMode,
+                bookingNote: _note,
+                hideNote: false,
+                hideForm: true,
+            });
+
+            return;
+        }
+
         const _fromTime = bookingMode === BookingType.BBQ ? this.state.bbqValidFromTime : this.state.moveValidFromTime;
         const _note = bookingMode == BookingType.BBQ ? ReactHtmlParser(this.bookingNotes.bbqNote) : ReactHtmlParser(this.bookingNotes.moveNote);
 
@@ -83,6 +96,7 @@ export default class Bookings extends React.Component<IProps, IState> {
             .then(data => {
                 this.setState({
                     bookingMode: bookingMode,
+                    hideNote: false,
                     hideForm: false,
                     bookingTime: this.calculateBookingStartTime(_fromTime, data),
                     bookingDuration: 30,
@@ -266,6 +280,8 @@ export default class Bookings extends React.Component<IProps, IState> {
             ${this.state.bookingMode === BookingType.BBQ ? css.booking_activeButton : ''}`;
         const move_class = `w3-btn w3-border w3-border-green w3-round-large ${css.booking_button}
             ${this.state.bookingMode === BookingType.MOVE ? css.booking_activeButton : ''}`;
+        const hardWaste_class = `w3-btn w3-border w3-border-green w3-round-large ${css.booking_button}
+            ${this.state.bookingMode === BookingType.HARD_WASTE ? css.booking_activeButton : ''}`;
 
         return (
             <div>
@@ -295,11 +311,16 @@ export default class Bookings extends React.Component<IProps, IState> {
                                 onClick={this.changeBookingMode(BookingType.MOVE)}>
                                 <i className="fas fa-people-carry"></i> Move In/Out
                             </button>
+                            <button
+                                className={`${hardWaste_class} ${css.move_button}`}
+                                onClick={this.changeBookingMode(BookingType.HARD_WASTE)}>
+                                <i className="fas fa-people-carry"></i> Hard Waste Collection
+                            </button>
                         </div>
                     </div>
                 </div>
 
-                <div className={`w3-content ${this.state.hideForm ? css.hideForm : css.showForm}`} style={maxWidthStyle}>
+                <div className={`w3-content ${this.state.hideNote ? css.hideForm : css.showForm}`} style={maxWidthStyle}>
                     <div className="w3-container">
                         <div className="w3-col l12 m12 s12 w3-margin-bottom">
                             {this.state.bookingNote}

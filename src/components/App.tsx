@@ -82,7 +82,7 @@ export default class App extends Component<any, any> {
 
                 {/* Footer */}
                 <footer className="w3-center w3-black w3-padding-16">
-                    <p>Copyright &copy; Reflections Apartments 2019</p>
+                    <p>Copyright &copy; Reflections Building Manager 2019</p>
                 </footer>
                 {/* Footer */}
             </div>

@@ -1,3 +1,3 @@
 export enum BookingType {
-    BBQ, MOVE, NA
+    BBQ, MOVE, HARD_WASTE, NA
 }
