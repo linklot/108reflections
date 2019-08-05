@@ -24,6 +24,10 @@ const iconImg = {
     height: '120px'
 }
 
+const note = {
+    color: 'red'
+}
+
 export default class Bookings extends React.Component<IProps, IState> {
     state: IState;
     _apartmentNumber: any;
@@ -297,6 +301,14 @@ export default class Bookings extends React.Component<IProps, IState> {
                         </h1>
                     </div>
                 </header>
+
+                <div className="w3-content w3-margin-top" style={maxWidthStyle}>
+                    <div className="w3-container w3-margin-top">
+                        <div className="w3-col l12 m12 s12 w3-margin-bottom">
+                            <p style={note}>Booking functions have not been finalised. Please directly email us at <a href="mailto:bm@108reflections.com.au">bm@108reflections.com.au</a> to book BBQ, Move In/Out, and Hard Waste Collection until further notice.</p>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="w3-content w3-margin-top" style={maxWidthStyle}>
                     <div className="w3-container w3-margin-top">
