@@ -76,7 +76,7 @@ export const RulesForms = () =>
                 <div className="w3-col l12 m12 s12 w3-margin-bottom">
                     <div className="w3-display-container w3-left">
                         <ul style={rulesList}>
-                            <li><a href="../pdf/Fob_Remote_Order_Form_Aug_2018.pdf" target="_blank">Fob / Remote Order Form</a></li>
+                            <li><a href="../pdf/Fob_Remote_Order_Form_Sep_2019.pdf" target="_blank">Fob / Remote Order Form</a></li>
                             <li><a href="https://www.turnbullcook.com.au/apartment-key-request/" target="_blank">Apartment Key Order</a></li>
                         </ul>
                     </div>
