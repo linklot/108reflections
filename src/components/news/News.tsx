@@ -40,10 +40,10 @@ export const News = () =>
                 </div>
                 <div className="w3-col l9 m9 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                        <h4 className={css.news_title}>Energy Supplier Changed: from OC Energy to Origin Energy</h4>
-                        <p className={css.news_paragraph}>Electricity supplier for the building has changed from OC Energy to Origin Energy. </p>
-                        <p className={css.news_paragraph}>On the 1st of March, Origin Energy completed the purchase of OC Energy. As part of this change, individual OC Energy customers (including the common areas customers) are being moved onto Origin Energy’s billing system, rates, and terms and conditions.</p>
-                        <p className={css.news_paragraph}>After following up with Origin Energy, we were advised this will happen towards the end of September 2019 but, being a complex job involving the migration of thousands of customers, it is possible this date may change. Origin Energy also suggested that lower electricity rates will apply to residential customers and common areas after the transition.</p>
+                        <h4 className={css.news_title}>Origin Electricity and Hot Water Bills</h4>
+                        <p className={css.news_paragraph}>Recently we have received many enquiries from residents about Origin electricity and hot water bills. They contacted Origin and were told that they would need to take readings from their electricity meter and hot water meter for themselves.</p>
+                        <p className={css.news_paragraph}>We would like to advise that it is not safe for residents to take readings for themselves. Especially, apartment hot water meters are located inside the ceiling. It would pose safety risks if residents need to stand on a ladder, open the overhead panel and look for the readings for themselves.</p>
+                        <p className={css.news_paragraph}>We have raised this concern with Origin and suggest residents requesting Origin to organise their technician to come and take readings.</p>
                     </div>
                 </div>
             </div>
