@@ -2,6 +2,11 @@
     margin-top: 0;
 }
 
+.news_last_update {
+    font-size: 9pt;
+    color: #999;
+}
+
 .iconImg {
     border-radius: 8pt;
     box-shadow: 5px 5px 5px rgba(100, 100, 100, .5);

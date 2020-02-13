@@ -4,6 +4,7 @@ export class BookingNotes {
 
     bbqNote = `
     <ul>
+        <li>Residents are encouraged to make a booking at least one business day in advance to ensure it is processed.</li>
         <li>Bookings are for the BBQ facility only (not extending to the whole terrace area).</li>
         <li>Booking notice will be displayed in the BBQ area before your booked date. </li>
         <li>Maximum booking time is 2 hours, you may continue if there is no booking after you.</li>

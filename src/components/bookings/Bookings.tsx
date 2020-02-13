@@ -305,6 +305,14 @@ export default class Bookings extends React.Component<IProps, IState> {
                 <div className="w3-content w3-margin-top" style={maxWidthStyle}>
                     <div className="w3-container w3-margin-top">
                         <div className="w3-col l12 m12 s12 w3-margin-bottom">
+                            <p>Please allow a few seconds for the page to load on the first click.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="w3-content w3-margin-top" style={maxWidthStyle}>
+                    <div className="w3-container w3-margin-top">
+                        <div className="w3-col l12 m12 s12 w3-margin-bottom">
                             <button
                                 className={bbq_class}
                                 onClick={this.changeBookingMode(BookingType.BBQ)}>
