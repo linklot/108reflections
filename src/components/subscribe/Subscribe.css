@@ -1,0 +1,21 @@
+.iconImg {
+    border-radius: 8pt;
+    box-shadow: 5px 5px 5px rgba(100, 100, 100, .5);
+    height: 120px;
+}
+
+.formLable {
+    font-size: 18px;
+}
+
+.required {
+    color: red;
+}
+
+.hideMsg {
+    display: none;
+}
+
+.showMsg {
+    display: block;
+}
