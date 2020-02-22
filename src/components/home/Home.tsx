@@ -29,6 +29,9 @@ const iconImg = {
     borderRadius: '8pt',
     boxShadow: '5px 5px 5px rgba(100, 100, 100, .5)'
 };
+const hrBorder = {
+    borderTop: '1px solid #4CAF50',
+}
 
 export const Home = () =>
     <div>
@@ -44,6 +47,16 @@ export const Home = () =>
         <div className="w3-content w3-padding" style={maxWidthStyle}>
             {/* Photos section */}
             <div className="w3-container w3-padding-32">
+            </div>
+
+            <div className="w3-row-padding">
+                <div className="w3-col l12 m12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <p><img src="./images/What_is_New.jpg"></img></p>
+                        <p className="w3-text-green">Owners are now welcome to subscribe to updates provided by us about our performance and relevant building issues. Sign up below with your name, apartment number, and email address. Upon verification, you will be included in the next distribution! </p>
+                        <hr style={hrBorder}></hr>
+                    </div>
+                </div>
             </div>
 
             <div className="w3-row-padding">
