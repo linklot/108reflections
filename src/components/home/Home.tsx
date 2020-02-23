@@ -32,6 +32,9 @@ const iconImg = {
 const hrBorder = {
     borderTop: '1px solid #4CAF50',
 }
+const whatsNew = {
+    fontSize: '18px',
+}
 
 export const Home = () =>
     <div>
@@ -52,8 +55,8 @@ export const Home = () =>
             <div className="w3-row-padding">
                 <div className="w3-col l12 m12 w3-margin-bottom">
                     <div className="w3-display-container">
-                        <p><img src="./images/What_is_New.jpg"></img></p>
-                        <p className="w3-text-green">Owners are now welcome to subscribe to updates provided by us about our performance and relevant building issues. Sign up below with your name, apartment number, and email address. Upon verification, you will be included in the next distribution! </p>
+                        <p><img src="./images/What_is_New.jpg" height="80"></img></p>
+                        <p className="w3-text-green" style={whatsNew}>Owners are now welcome to <a href="#/subscribe">subscribe</a> to updates provided by us about our performance and relevant building issues. Sign up below with your name, apartment number, and email address. Upon verification, you will be included in the next distribution! </p>
                         <hr style={hrBorder}></hr>
                     </div>
                 </div>
