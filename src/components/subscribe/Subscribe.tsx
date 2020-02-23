@@ -27,7 +27,7 @@ export default class Subscribe extends React.Component<IProps, IState> {
         this.state = {
             formValid: true,
             formSubmitted: false,
-            msg: 'Thank you for subscribing! We will send you the latest updates soon.',
+            msg: 'Thank you for subscribing! We will verify the details and include you in the next distribution.',
             invalidName: false,
             invalidApartmentNumber: false,
             invalidEmail: false,
