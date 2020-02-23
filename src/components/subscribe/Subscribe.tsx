@@ -111,12 +111,19 @@ export default class Subscribe extends React.Component<IProps, IState> {
                 <div className="w3-content w3-padding" style={maxWidthStyle}>
                     {/* News section */}
                     <div className="w3-container w3-padding-32">
-                        <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">
+                        <h3 className="w3-border-bottom w3-border-light-grey w3-padding-small">
                             <i className="fas fa-bullhorn w3-text-teal"></i> Subscribe Updates
                         </h3>
                     </div>
 
-                    <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                    <div className="w3-row-padding w3-padding-16 w3-border-bottom w3-border-light-grey">
+                        <div className="w3-col l12 m12 s12 w3-margin-bottom">
+                            <div className="w3-display-container">
+                            Owners are now welcome to subscribe to updates provided by us about our 
+                            performance and relevant building issues. Sign up below with your 
+                            name, apartment number, and email address. Upon verification, you will be included in the next distribution!
+                            </div>
+                        </div>
                         <div className="w3-col l12 m12 s12 w3-margin-bottom">
                             <div className="w3-display-container">
                                 <label className={css.formLable}>Your name <span className={css.required}>*</span></label>
