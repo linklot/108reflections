@@ -35,6 +35,24 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
+                    <img src="./images/news/news_2020-02-24.png" alt="House" style={fullWidthStyle} />
+                        <div className={css.news_last_update}>Last updated: 24/02/2020</div>
+                    </div>
+                </div>
+                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <h4 className={css.news_title}>External Window Cleaning</h4>
+                        <p className={css.news_paragraph}>Building external window cleaning is scheduled to be carried out next week. Subject to weather conditions, cleaning will start on Monday 02/03/2020.</p>
+                        <p className={css.news_paragraph}>If there are any issues (such as paint stains on the windows or loose black tape left on the balustrades from construction) that you are concerned about, please contact us and let us know before the cleaning commences so we may ask the cleaners to attend to those areas during the cleaning.</p>
+                        <p className={css.news_paragraph}>Windows / balustrade panels within individual apartments and accessible will not be covered in external window cleaning. Residents are encouraged to organise the cleaning of the internal side of double-glazed windows / panels so the quality of the external side cleaning would be more visible.</p>
+                        <p className={css.news_paragraph}>Further schedule, including the order in which all sides of the building are to be cleaned, will be provided before the day of cleaning.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
                     <img src="./images/news/news_2020-02-19.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 19/02/2020</div>
                     </div>
