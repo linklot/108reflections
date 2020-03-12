@@ -35,6 +35,34 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
+                    <img src="./images/news/news_2020-03-12.png" alt="House" style={fullWidthStyle} />
+                        <div className={css.news_last_update}>Last updated: 12/03/2020</div>
+                    </div>
+                </div>
+                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <h4 className={css.news_title}>Coronavirus - What can be done to protect our building and residents</h4>
+                        <p className={css.news_paragraph}>Dear residents,</p>
+                        <p className={css.news_paragraph}>In the light of the developing coronavirus situation in Victoria and nationally, we would like to suggest taking care of our general health and well being so the chance of infection being brought home with us could be minimised. Please consider taking the following precautions:</p>
+                        <p className={css.news_paragraph}>
+                            <ul>
+                            <li>Reading and taking the advice from the information leaflets from the health authorities displayed on the noticeboards in the lifts and mailroom</li>
+                            <li>Washing hands regularly, covering mouth and nose when coughing and sneezing in common areas</li>
+                            <li>Using hand sanitiser before &amp; after touching the lift buttons and trying to avoid using hands where possible (using your key/fob/tissue to press the lift buttons instead)</li>
+                            <li>Avoiding unnecessary close contact with others</li>
+                            <li>Ringing, texting, and emailing us are preferable to face-to-face interactions</li>
+                            <li>Most importantly, seeking medical attention early if you become unwell</li>
+                            </ul>
+                        </p>
+                        <p className={css.news_paragraph}>We are in the process of sourcing hand sanitiser products (refills touch free dispenser and floor stand) for the use in common areas. If you happen to know where they are available, please let us know.</p>
+                        <p className={css.news_paragraph}>Your health is important to us. Your understanding and efforts in keeping this building safe and all the residents well and healthy are greatly appreciated.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
                     <img src="./images/news/news_2020-02-24.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 24/02/2020</div>
                     </div>
