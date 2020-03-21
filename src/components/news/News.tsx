@@ -35,6 +35,48 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
+                    <img src="./images/news/news_2020-03-21.png" alt="House" style={fullWidthStyle} />
+                        <div className={css.news_last_update}>Last updated: 21/03/2020</div>
+                    </div>
+                </div>
+                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <h4 className={css.news_title}>Reflections – Message about Coronavirus</h4>
+                        <p className={css.news_paragraph}>Dear residents,</p>
+                        <p className={css.news_paragraph}><strong>Re: Coronavirus Pandemic (COVID-19)</strong></p>
+                        <p className={css.news_paragraph}>It is a difficult time due to the rapidly changing situation regarding coronavirus. As your building manager at Reflections, we want to reassure you that we are taking every precaution to ensure the safety and wellbeing of all our residents.</p>
+                        <p className={css.news_paragraph}>
+                            <ul>
+                                <li>Starting in late January, we are displaying information and advice from federal and Victorian health authorities on the notice board in the mailroom and updating on a weekly basis.</li>
+                                <li>We are working closely with the OC manager and the Committee’s Building Officer in setting up a hand sanitiser station in the lobby.</li>
+                                <li>High touch areas like lift buttons, door handles, and bin room are disinfected more frequently.</li>
+                                <li>Our cleaners are wearing appropriate PPE when working in common areas to minimise the chance of infection.</li>
+                                <li>We are actively communicating with building managers, OC companies, other service providers in the industry, and industry organisations in dealing with this new situation faced by all of us.</li>
+                            </ul>
+                        </p>
+                        <p className={css.news_paragraph}>We strongly recommend all residents taking the advice from the health authorities and:</p>
+                        <p className={css.news_paragraph}>
+                            <ul>
+                                <li>Practising good hygiene</li>
+                                <li>Practising social distancing</li>
+                                <li>Instead of fingers, using key/fob/tissue to activate lift buttons</li>
+                                <li>Not staying in a small enclosed room with no ventilation (for example the mailroom and chute room) for too long</li>
+                            </ul>
+                        </p>
+                        <p className={css.news_paragraph}>Residents who are in self-isolation, you are not alone. You are welcome to contact us, and we are happy to help where possible.</p>
+                        <p className={css.news_paragraph}>There are a number of our residents work in the healthcare sector. It's important that they keep well at home as they may need to be in the front line against the coronavirus. There are also senior members of our community and families with children living in the building. We could look after each other by doing our part to minimise the chance of infection and spread in our building.</p>
+                        <p className={css.news_paragraph}>We believe we can stay together and overcome this challenging time as a community.</p>
+                        <p className={css.news_paragraph}></p>
+                        <p className={css.news_paragraph}><strong>More information:</strong></p>
+                        <p className={css.news_paragraph}>Department of Health and Human Services, Victoria, <a href="https://www.dhhs.vic.gov.au/coronavirus" target="_blank">https://www.dhhs.vic.gov.au/coronavirus</a></p>
+                        <p className={css.news_paragraph}>Department of Health, Australia, <a href="https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert" target="_blank">https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
                     <img src="./images/news/news_2020-03-12.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 12/03/2020</div>
                     </div>
