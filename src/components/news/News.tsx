@@ -78,7 +78,7 @@ export const News = () =>
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
                     <img src="./images/news/news_2020-03-12.png" alt="House" style={fullWidthStyle} />
-                        <div className={css.news_last_update}>Last updated: 12/03/2020</div>
+                        <div className={css.news_last_update}>Last updated: 15/03/2020</div>
                     </div>
                 </div>
                 <div className="w3-col l9 m9 s12 w3-margin-bottom">
