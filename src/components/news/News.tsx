@@ -35,6 +35,25 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
+                    <img src="./images/news/news_2020-03-22.png" alt="House" style={fullWidthStyle} />
+                        <div className={css.news_last_update}>Last updated: 22/03/2020</div>
+                    </div>
+                </div>
+                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <h4 className={css.news_title}>Additional Message about Coronavirus</h4>
+                        <p className={css.news_paragraph}>Dear residents,</p>
+                        <p className={css.news_paragraph}>A resident has noted her concerns to us in regard to the information about activating lift buttons with a key/fob/tissue in the message we sent yesterday. She was worried that keys could be potentially contaminated and brought home.</p>
+                        <p className={css.news_paragraph}>To clarify please refer to the statement from Doctor Brett Sutton, Victoria's Chief Health Officer where he advised to take measures including <strong>"instead of your fingers, using your knuckle, a pen or an ID card to activate lift buttons"</strong> (<a href="https://www.dhhs.vic.gov.au/coronavirus-statement-doctor-brett-sutton" target="_blank">https://www.dhhs.vic.gov.au/coronavirus-statement-doctor-brett-sutton</a>).</p>
+                        <p className={css.news_paragraph}>Upon enquiry, several medical professionals in our building also advised that key/fob is an appropriate / practical alternative to using fingers. It was also noted by one of them that such items should be cleaned regularly (just like we do our hands) and not be left somewhere at home which is at risk of contaminating other areas regardless.</p>
+                        <p className={css.news_paragraph}>The situation is evolving and we will continue providing updates.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
                     <img src="./images/news/news_2020-03-21.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 21/03/2020</div>
                     </div>
