@@ -35,7 +35,7 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                    <img src="./images/news/news_2020-03-30.png" alt="House" style={fullWidthStyle} />
+                        <img src="./images/news/news_2020-03-30.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 30/03/2020</div>
                     </div>
                 </div>
@@ -46,7 +46,8 @@ export const News = () =>
                         <p className={css.news_paragraph}>We would like to update you on the measures taken in response to the current situation and draw your attention to some relevant issues.</p>
                         <p className={css.news_paragraph}>1) We finally received our order and will set up the hand sanitiser dispenser very soon. Due to supply shortage, we are still awaiting ETA for additional orders.</p>
                         <p className={css.news_paragraph}>2) We have taken further measures including requesting all contractors coming onsite to confirm their health status and providing hand sanitiser to them if needed.</p>
-                        <p className={css.news_paragraph}>Residents now spend much more time in the building. We are receiving more parcels than usual in the past two weeks (since many people started working from home) - even more than the peak season before Christmas. The volume of the waste produced has increased and there's also more mess in common areas. We are making additional effort to keep the common areas clean and would like to draw your attention to some issues.</p>
+                        <p className={css.news_paragraph}>3) On top of general cleaning, we organised additional deep cleaning last week for common areas including individual apartment entrance doors on all levels.</p>
+                        <p className={css.news_paragraph}>Residents now spend much more time in the building. We are receiving more parcels than usual in the past two weeks (since many people started working from home) - even more than the peak season before Christmas. The volume of waste produced has also increased. There're also issues to which we would like to draw your attention.</p>
                         <p className={css.news_paragraph}>Just on last Saturday morning, we received reports of a chute blockage and cigarette butts being thrown off and landing on lower level balconies. We would like to ask everyone to be more mindful during this period of time and follow the OC rules. This especially includes not disposing off any large item into the chute to minimise the chance of blockage. If the chute is blocked, all residents would have to bring waste to the ground floor bin room.</p>
                         <p className={css.news_paragraph}>Your understanding and support through this time is greatly appreciated.</p>
                     </div>
@@ -56,7 +57,7 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                    <img src="./images/news/news_2020-03-22.png" alt="House" style={fullWidthStyle} />
+                        <img src="./images/news/news_2020-03-22.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 22/03/2020</div>
                     </div>
                 </div>
@@ -75,7 +76,7 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                    <img src="./images/news/news_2020-03-21.png" alt="House" style={fullWidthStyle} />
+                        <img src="./images/news/news_2020-03-21.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 21/03/2020</div>
                     </div>
                 </div>
@@ -117,7 +118,7 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                    <img src="./images/news/news_2020-03-12.png" alt="House" style={fullWidthStyle} />
+                        <img src="./images/news/news_2020-03-12.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 15/03/2020</div>
                     </div>
                 </div>
@@ -128,12 +129,12 @@ export const News = () =>
                         <p className={css.news_paragraph}>In the light of the developing coronavirus situation in Victoria and nationally, we would like to suggest taking care of our general health and well being so the chance of infection being brought home with us could be minimised. Please consider taking the following precautions:</p>
                         <p className={css.news_paragraph}>
                             <ul>
-                            <li>Reading and taking the advice from the information leaflets from the health authorities displayed on the noticeboards in the lifts and mailroom</li>
-                            <li>Washing hands regularly, covering mouth and nose when coughing and sneezing in common areas</li>
-                            <li>Using hand sanitiser before &amp; after touching the lift buttons and trying to avoid using hands where possible (using your key/fob/tissue to press the lift buttons instead)</li>
-                            <li>Avoiding unnecessary close contact with others</li>
-                            <li>Ringing, texting, and emailing us are preferable to face-to-face interactions</li>
-                            <li>Most importantly, seeking medical attention early if you become unwell</li>
+                                <li>Reading and taking the advice from the information leaflets from the health authorities displayed on the noticeboards in the lifts and mailroom</li>
+                                <li>Washing hands regularly, covering mouth and nose when coughing and sneezing in common areas</li>
+                                <li>Using hand sanitiser before &amp; after touching the lift buttons and trying to avoid using hands where possible (using your key/fob/tissue to press the lift buttons instead)</li>
+                                <li>Avoiding unnecessary close contact with others</li>
+                                <li>Ringing, texting, and emailing us are preferable to face-to-face interactions</li>
+                                <li>Most importantly, seeking medical attention early if you become unwell</li>
                             </ul>
                         </p>
                         <p className={css.news_paragraph}>We are in the process of sourcing hand sanitiser products (refills touch free dispenser and floor stand) for the use in common areas. If you happen to know where they are available, please let us know.</p>
@@ -145,7 +146,7 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                    <img src="./images/news/news_2020-02-24.png" alt="House" style={fullWidthStyle} />
+                        <img src="./images/news/news_2020-02-24.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 24/02/2020</div>
                     </div>
                 </div>
@@ -163,7 +164,7 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
-                    <img src="./images/news/news_2020-02-19.png" alt="House" style={fullWidthStyle} />
+                        <img src="./images/news/news_2020-02-19.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 19/02/2020</div>
                     </div>
                 </div>
