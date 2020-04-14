@@ -46,6 +46,7 @@ export const News = () =>
                         <p className={css.news_paragraph}>Common area carpet steam cleaning has been scheduled for Thursday (16/04/2020) and Friday (17/04/2020). The carpet on every level will be deep cleaned and disinfected by steam.</p>
                         <p className={css.news_paragraph}><strong>Picking up Food Deliveries</strong></p>
                         <p className={css.news_paragraph}>Notice has been displayed on the front sliding door requesting that residents pick up their food deliveries at the front entry since 01/04/2020. However, we noticed that some food delivery drivers were still buzzed into the building by residents. We urge all residents to follow the Stay at home directions from the Victorian government (relevant guidelines can be found at <a href="https://www.dhhs.vic.gov.au/stay-home-and-restricted-activities-directions-frequently-asked-questions" target="_blank">https://www.dhhs.vic.gov.au/stay-home-and-restricted-activities-directions-frequently-asked-questions</a>).</p>
+                        <p className={css.news_paragraph}>"<i>If you live in an apartment with a security entrance, don’t allow delivery people to enter the building or use lifts or internal stairways. Pick up your delivery from the front of the building instead. This minimises the risk to any older or vulnerable people who share the common areas of the property.</i>"</p>
                     </div>
                 </div>
             </div>
