@@ -35,6 +35,24 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
+                        <img src="./images/news/news_2020-04-14.png" alt="House" style={fullWidthStyle} />
+                        <div className={css.news_last_update}>Last updated: 14/04/2020</div>
+                    </div>
+                </div>
+                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <h4 className={css.news_title}>COVID-19 Update for Residents</h4>
+                        <p className={css.news_paragraph}><strong>Carpet Steam Cleaning</strong></p>
+                        <p className={css.news_paragraph}>Common area carpet steam cleaning has been scheduled for Thursday (16/04/2020) and Friday (17/04/2020). The carpet on every level will be deep cleaned and disinfected by steam.</p>
+                        <p className={css.news_paragraph}><strong>Picking up Food Deliveries</strong></p>
+                        <p className={css.news_paragraph}>Notice has been displayed on the front sliding door requesting that residents pick up their food deliveries at the front entry since 01/04/2020. However, we noticed that some food delivery drivers were still buzzed into the building by residents. We urge all residents to follow the Stay at home directions from the Victorian government (relevant guidelines can be found at <a href="https://www.dhhs.vic.gov.au/stay-home-and-restricted-activities-directions-frequently-asked-questions" target="_blank">https://www.dhhs.vic.gov.au/stay-home-and-restricted-activities-directions-frequently-asked-questions</a>).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
                         <img src="./images/news/news_2020-03-30.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 30/03/2020</div>
                     </div>
