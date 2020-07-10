@@ -306,8 +306,8 @@ export default class Bookings extends React.Component<IProps, IState> {
                     <div className="w3-container w3-margin-top">
                         <div className="w3-col l12 m12 s12 w3-margin-bottom">
                             <p>Please allow a few seconds for the page to load on the first click.</p>
-                            <p><br/></p>
-                            <p>The BBQ is open now.<br/>
+                            <p><strong>Due to the coronavirus situation, the BBQ facility is not available until further notice.</strong></p>
+                            {/* <p>The BBQ is open now.<br/>
                                 To minimise the risks, please:
                                 <ul>
                                     <li>Make a booking before using the BBQ</li>
@@ -315,7 +315,7 @@ export default class Bookings extends React.Component<IProps, IState> {
                                     <li>Take rubbish away after use</li>
                                     <li>Observe the restrictions put in place by the Victorian government</li>
                                 </ul>
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                 </div>
