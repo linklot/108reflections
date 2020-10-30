@@ -51,8 +51,8 @@ export default class Bookings extends React.Component<IProps, IState> {
             bookingDate: moment().add(1, 'days'),
             bbqValidFromTime: moment().set('hour', 8).set('minute', 0),
             bbqValidToTime: moment().set('hour', 22).set('minute', 0),
-            moveValidFromTime: moment().set('hour', 10).set('minute', 0),
-            moveValidToTime: moment().set('hour', 16).set('minute', 0),
+            moveValidFromTime: moment().set('hour', 8).set('minute', 0),
+            moveValidToTime: moment().set('hour', 18).set('minute', 0),
             validFromTime: moment(),
             validToTime: moment(),
             bookingTime: moment(),
@@ -71,6 +71,7 @@ export default class Bookings extends React.Component<IProps, IState> {
             formIsValid: false,
             formSubmitted: false,
             excludeTimes: [],
+            disabled: false,
         };
         this._apartmentNumber = '';
         this.bookingService = new BookingService();
@@ -123,15 +124,41 @@ export default class Bookings extends React.Component<IProps, IState> {
         const bookingDate = date.format('YYYY-MM-DD');
         this.bookingService.listAllBookingsOfTypeAndDate(bookingType, bookingDate)
             .then(data => {
+                const dayToday = date.isoWeekday();
+                const moveStartTime = (() => {
+                    switch (dayToday) {
+                        case 6: return moment().set('hour', 9).set('minute', 0);
+                        case 7: return moment().set('hour', 0).set('minute', 0);
+                        default: return this.state.moveValidFromTime;
+                    }
+                })();
+                const moveEndTime = (() => {
+                    switch (dayToday) {
+                        case 6: return moment().set('hour', 13).set('minute', 0);
+                        case 7: return moment().set('hour', 0).set('minute', 0);
+                        default: return this.state.moveValidToTime;
+                    }
+                })();
+
                 const possibleStartTime = this.state.bookingMode === BookingType.BBQ
                     ? this.state.bbqValidFromTime
-                    : this.state.moveValidFromTime;
+                    : moveStartTime;
+
+                if (this.state.bookingMode == BookingType.MOVE && dayToday == 7) {
+                    this.setState({
+                        disabled: true,
+                    });
+                } else {
+                    this.setState({
+                        disabled: false,
+                    });
+                }
 
                 this.setState({
                     excludeTimes: data,
                     bookingTime: this.calculateBookingStartTime(possibleStartTime, data),
-                    validFromTime: this.state.bookingMode === BookingType.BBQ ? this.state.bbqValidFromTime : this.state.moveValidFromTime,
-                    validToTime: this.state.bookingMode === BookingType.BBQ ? this.state.bbqValidToTime : this.state.moveValidToTime,
+                    validFromTime: this.state.bookingMode === BookingType.BBQ ? this.state.bbqValidFromTime : moveStartTime,
+                    validToTime: this.state.bookingMode === BookingType.BBQ ? this.state.bbqValidToTime : moveEndTime,
                 });
             });
     }
@@ -384,6 +411,8 @@ export default class Bookings extends React.Component<IProps, IState> {
                                                 className="w3-input"
                                                 onKeyDown={this.doesNothing}
                                                 excludeTimes={this.state.excludeTimes}
+                                                startDate={undefined}
+                                                disabled={this.state.disabled}
                                             />
                                         </div>
 

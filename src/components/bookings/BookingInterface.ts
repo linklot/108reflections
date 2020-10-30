@@ -27,6 +27,7 @@ export interface IState {
     formIsValid: any,
     formSubmitted: any,
     excludeTimes: any,
+    disabled: boolean,
 }
 
 export interface IBookingModel {
