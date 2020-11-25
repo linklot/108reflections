@@ -51,7 +51,7 @@ export const Contact = () =>
                         <p>CITY WEST WATER - 132 642</p>
                         <h3 className={`w3-text-blue ${css.supplier}`}><i className="fas fa-bolt"></i> ELECTRICITY/ HOT WATER / GAS COOKTOP</h3>
                         <p>Origin - 1800 684 993</p>
-                        <p>Building roof hot water system emergency service: 1800 002 438</p>
+                        <p>Hot Water Service Breakdown: 1800 002 438 (Origin after hours hot water service number)</p>
                         <h3 className={`w3-text-blue ${css.supplier}`}><i className="fas fa-wifi"></i> INTERNET PROVIDER</h3>
                         <p>LIGHTNING BROADBAND - 1300 596 426</p>
                         <h3 className={`w3-text-blue ${css.supplier}`}><i className="fas fa-parking"></i> CAR STACKER INDUCTION</h3>
