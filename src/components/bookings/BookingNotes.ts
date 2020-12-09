@@ -3,6 +3,8 @@ export class BookingNotes {
     }
 
     bbqNote = `
+    <p>Booking request will be reviewed and processed during working hours on a first come, first served basis.</p>
+    <p>Once you submit your booking request, an automatic email will be sent to you acknowledging receipt of that. Another confirmation email will be sent to you after your booking is processed. If you do not receive any automatic email in your inbox or junk mail folder, the booking request may have not been submitted successfully. In that case, you may try again or email us on <a href='mailto:bm@108reflections.com.au' target='_blank'>bm@108reflections.com.au</a>.</p>
     <ul>
         <li>Residents are encouraged to make a booking at least one business day in advance to ensure it is processed.</li>
         <li>Bookings are for the BBQ facility only (not extending to the whole terrace area).</li>

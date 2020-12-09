@@ -333,7 +333,6 @@ export default class Bookings extends React.Component<IProps, IState> {
                     <div className="w3-container w3-margin-top">
                         <div className="w3-col l12 m12 s12 w3-margin-bottom">
                             <p>Please allow a few seconds for the page to load on the first click.</p>
-                            <p>BBQ is <strong>re-opened</strong> for booking from 12/11/2020 on condition that the rule of max 10 people is followed as required by the government.</p>
                             {/* <p>The BBQ is open now.<br/>
                                 To minimise the risks, please:
                                 <ul>
