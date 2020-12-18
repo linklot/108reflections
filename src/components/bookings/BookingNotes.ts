@@ -3,7 +3,6 @@ export class BookingNotes {
     }
 
     bbqNote = `
-    <p>BBQ is re-opened for booking from 12/11/2020 on condition that the rule of max 10 people is followed as required by the government.</p>
     <ul>
         <li>Residents are encouraged to make a booking at least one business day in advance to ensure it is processed.</li>
         <li>Bookings are for the BBQ facility only (not extending to the whole terrace area).</li>
