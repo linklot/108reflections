@@ -35,6 +35,42 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
+                        <img src="./images/news/news_2021-01-25.png" alt="House" style={fullWidthStyle} />
+                        <div className={css.news_last_update}>Last updated: 25/01/2021</div>
+                    </div>
+                </div>
+                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <h4 className={css.news_title}>Potential Abandoned Bicycles</h4>
+                        <p className={css.news_paragraph}>On the instruction of the Owners Corporation, notices have been attached to all bicycles on bike racks on common property.</p>
+                        <p className={css.news_paragraph}>Please check your bicycle parked on common property and promptly remove the notice on it to alert us that it is not abandoned.</p>
+                        <p className={css.news_paragraph}>If the notice on a bicycle is not removed by 22/02/2021, the bicycle will be removed from where it is parked and available for collection by appointment with Building Manager.</p>
+                        <p className={css.news_paragraph}>If a bicycle is not claimed or collected by 22/05/2021, it will be donated to charity by the Owners Corporation.</p>
+                        <p className={css.news_paragraph}>If you have any further questions or concerns, please contact Building Manager on 0404 573 762 / 0490 792 204 during business hours or email to <a href="mailto:bm@108reflections.com.au" target="_blank">bm@108reflections.com.au</a>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <img src="./images/news/news_2021-01-15.png" alt="House" style={fullWidthStyle} />
+                        <div className={css.news_last_update}>Last updated: 15/01/2021</div>
+                    </div>
+                </div>
+                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <h4 className={css.news_title}>No cardboard in recycle chute</h4>
+                        <p className={css.news_paragraph}>Dear Residents,</p>
+                        <p className={css.news_paragraph}>This is a kind reminder of not throwing any cardboard in the recycle chute. There have been four blockages in the past three weeks where folded pieces of cardboard were stuck in the recycle chute and preventing other waste from passing through. Folded cardboard may unfold and expand in the chute, cut cardboard pieces can still be too big and stuck in the chute with other waste items. Please follow the signage in the chute room and bring all cardboard down to the bin room. </p>
+                        <p className={css.news_paragraph}>Your cooperation is greatly appreciated.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
                         <img src="./images/news/news_2020-10-06.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 06/10/2020</div>
                     </div>
@@ -57,27 +93,27 @@ export const News = () =>
                 </div>
             </div>
 
-        <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
-            <div className="w3-col l3 m3 s12 w3-margin-bottom">
-                <div className="w3-display-container">
-                    <img src="./images/news/news_2020-03-30.png" alt="House" style={fullWidthStyle} />
-                    <div className={css.news_last_update}>Last updated: 30/03/2020</div>
+            <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <img src="./images/news/news_2020-03-30.png" alt="House" style={fullWidthStyle} />
+                        <div className={css.news_last_update}>Last updated: 30/03/2020</div>
+                    </div>
+                </div>
+                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <h4 className={css.news_title}>COVID-19 Update for Residents</h4>
+                        <p className={css.news_paragraph}>Dear residents,</p>
+                        <p className={css.news_paragraph}>We would like to update you on the measures taken in response to the current situation and draw your attention to some relevant issues.</p>
+                        <p className={css.news_paragraph}>1) We finally received our order and will set up the hand sanitiser dispenser very soon. Due to supply shortage, we are still awaiting ETA for additional orders.</p>
+                        <p className={css.news_paragraph}>2) We have taken further measures including requesting all contractors coming onsite to confirm their health status and providing hand sanitiser to them if needed.</p>
+                        <p className={css.news_paragraph}>3) On top of general cleaning, we organised additional deep cleaning last week for common areas including individual apartment entrance doors on all levels.</p>
+                        <p className={css.news_paragraph}>Residents now spend much more time in the building. We are receiving more parcels than usual in the past two weeks (since many people started working from home) - even more than the peak season before Christmas. The volume of waste produced has also increased. There're also issues to which we would like to draw your attention.</p>
+                        <p className={css.news_paragraph}>Just on last Saturday morning, we received reports of a chute blockage and cigarette butts being thrown off and landing on lower level balconies. We would like to ask everyone to be more mindful during this period of time and follow the OC rules. This especially includes not disposing off any large item into the chute to minimise the chance of blockage. If the chute is blocked, all residents would have to bring waste to the ground floor bin room.</p>
+                        <p className={css.news_paragraph}>Your understanding and support through this time is greatly appreciated.</p>
+                    </div>
                 </div>
             </div>
-            <div className="w3-col l9 m9 s12 w3-margin-bottom">
-                <div className="w3-display-container">
-                    <h4 className={css.news_title}>COVID-19 Update for Residents</h4>
-                    <p className={css.news_paragraph}>Dear residents,</p>
-                    <p className={css.news_paragraph}>We would like to update you on the measures taken in response to the current situation and draw your attention to some relevant issues.</p>
-                    <p className={css.news_paragraph}>1) We finally received our order and will set up the hand sanitiser dispenser very soon. Due to supply shortage, we are still awaiting ETA for additional orders.</p>
-                    <p className={css.news_paragraph}>2) We have taken further measures including requesting all contractors coming onsite to confirm their health status and providing hand sanitiser to them if needed.</p>
-                    <p className={css.news_paragraph}>3) On top of general cleaning, we organised additional deep cleaning last week for common areas including individual apartment entrance doors on all levels.</p>
-                    <p className={css.news_paragraph}>Residents now spend much more time in the building. We are receiving more parcels than usual in the past two weeks (since many people started working from home) - even more than the peak season before Christmas. The volume of waste produced has also increased. There're also issues to which we would like to draw your attention.</p>
-                    <p className={css.news_paragraph}>Just on last Saturday morning, we received reports of a chute blockage and cigarette butts being thrown off and landing on lower level balconies. We would like to ask everyone to be more mindful during this period of time and follow the OC rules. This especially includes not disposing off any large item into the chute to minimise the chance of blockage. If the chute is blocked, all residents would have to bring waste to the ground floor bin room.</p>
-                    <p className={css.news_paragraph}>Your understanding and support through this time is greatly appreciated.</p>
-                </div>
-            </div>
-        </div>
 
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
