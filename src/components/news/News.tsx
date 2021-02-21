@@ -35,6 +35,25 @@ export const News = () =>
             <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
                 <div className="w3-col l3 m3 s12 w3-margin-bottom">
                     <div className="w3-display-container">
+                        <img src="./images/news/news_2021-02-21.png" alt="House" style={fullWidthStyle} />
+                        <div className={css.news_last_update}>Last updated: 20/02/2021</div>
+                    </div>
+                </div>
+                <div className="w3-col l9 m9 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
+                        <h4 className={css.news_title}>Re: Disposal of Glass Waste</h4>
+                        <p className={css.news_paragraph}>We would like to draw your attention to safety hazards posed by glass items being thrown in the chute.</p>
+                        <p className={css.news_paragraph}>If being dropped in the chute, glass items will fall and hit the bin underneath at speed and with force. From time to time, they smash into pieces that are scattered all over the floor in the bin room and even outside the bin room. This poses serious safety hazards to residents and contractors who might happen to be in the area.</p>
+                        <p className={css.news_paragraph}>Please follow the signage in the chute room and bring your glass waste (wine bottles, etc) down to the bin room.</p>
+                        <p className={css.news_paragraph}>Thank you for your cooperation in making our building safe.</p>
+                        <p className={css.news_paragraph}>If you have any further questions or concerns, please contact Building Manager on 0404 573 762 / 0490 792 204 during business hours or email to <a href="mailto:bm@108reflections.com.au" target="_blank">bm@108reflections.com.au</a>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+                <div className="w3-col l3 m3 s12 w3-margin-bottom">
+                    <div className="w3-display-container">
                         <img src="./images/news/news_2021-01-25.png" alt="House" style={fullWidthStyle} />
                         <div className={css.news_last_update}>Last updated: 25/01/2021</div>
                     </div>
