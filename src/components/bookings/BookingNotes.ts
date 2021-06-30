@@ -1,8 +1,7 @@
 export class BookingNotes {
-    constructor() {
-    }
+  constructor() {}
 
-    bbqNote = `
+  bbqNote = `
     <ul>
         <li>Residents are encouraged to make a booking at least one business day in advance to ensure it is processed.</li>
         <li>Bookings are for the BBQ facility only (not extending to the whole terrace area).</li>
@@ -13,8 +12,9 @@ export class BookingNotes {
     </ul>
     `;
 
-    moveNote = `
-    <p><strong>Recommended moving time:</strong> Weekdays between 10am to 4pm & Saturdays 9am - 1pm</p>
+  moveNote = `
+    <p><strong>Booking is essential and can only be made within working hours (Mon to Fri from 8am to 6pm, Sat from 9am to 1pm,  excluding public holidays).</strong></p>
+    <p>All the large items must be moved in/out via <strong>CAR PARK ENTRY ONLY</strong> not through <strong>ground foyer</strong>.</p>
     <p>Building manager will lock one of the elevators and put up lift protection pads for moving for a maximum of 2 hours</p>
     <p><strong>Lift Dimensions:</strong></p>
     <p>Lift Entrance Size: 2100 mm high x 900 mm wide</p>
@@ -22,9 +22,9 @@ export class BookingNotes {
     <p>All the moving in/out must be done via <strong>CAR PARK ENTRY</strong>. If residents are using professional movers, public liability insurance certificate need to be provided. Once they arrive, they must contact building manager and fill out the indemnity form before starting to move in/out. </p>
     `;
 
-    hardWasteNote = `
+  hardWasteNote = `
     <p></p>
-    <p>Please email building manager at <a href='mailto:bm@108reflections.com.au' target='_blank'>bm@108reflections.com.au</a> with details of your hard waste (description and dimensions) and allow at least 6 weeks for us to organise the collection with the city council.</p>
+    <p>Date of the next scheduled hard waste collection can be found in the Hard Waste Collection Notice in the mailroom. Please contact building manager at <a href="mailto:bm@108reflections.com.au" target="_blank">bm@108reflections.com.au</a> with details of your hard waste (description and dimensions).</p>
     <p>Do not leave any hard waste in any <strong>Common Areas (including Bin room)</strong> in the building.</p>
     <p>Please note there is a size limit for every collection, so <strong>booking</strong> is essential.</p>
     <p><strong>What they will collect</strong></p>
