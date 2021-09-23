@@ -42,6 +42,33 @@ export const News = () => (
       <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
         <div className='w3-col l3 m3 s12 w3-margin-bottom'>
           <div className='w3-display-container'>
+            <img src='./images/news/news_2021-09-23.jpg' alt='House' style={fullWidthStyle} />
+            <div className={css.news_last_update}>Last updated: 20/09/2021</div>
+          </div>
+        </div>
+        <div className='w3-col l9 m9 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
+            <h4 className={css.news_title}>Re: Cladding and Lower Front Windows Cleaning</h4>
+            <p className={css.news_paragraph}>
+              Maintenance cleaning for the front cladding will be carried out on{' '}
+              <strong>Thursday 23/09/2020</strong> starting at <strong>8:00am</strong>.
+            </p>
+            <p className={css.news_paragraph}>
+              Cleaning contractors will be using extension water fed poles to clean the front
+              cladding of the building. Windows and balustrades in the area will also be cleaned at
+              the same time to remove water marks coming from the process.
+            </p>
+            <p className={css.news_paragraph}>
+              If your apartment is on Level 1, 2, or 3 and facing Haines Street, please ensure your
+              windows are closed for the day.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
+        <div className='w3-col l3 m3 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
             <img src='./images/news/news_2021-06-11.jpg' alt='House' style={fullWidthStyle} />
             <div className={css.news_last_update}>Last updated: 11/06/2021</div>
           </div>
