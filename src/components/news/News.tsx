@@ -61,26 +61,6 @@ export const News = () => (
       <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
         <div className='w3-col l3 m3 s12 w3-margin-bottom'>
           <div className='w3-display-container'>
-            <img src='./images/news/news_2021-07-13.png' alt='House' style={fullWidthStyle} />
-            <div className={css.news_last_update}>Last updated: 13/07/2021</div>
-          </div>
-        </div>
-        <div className='w3-col l9 m9 s12 w3-margin-bottom'>
-          <div className='w3-display-container'>
-            <h4 className={css.news_title}>Hard waste & e waste</h4>
-            <p className={css.news_paragraph}>
-              Hard waste, including chairs, tables, and storage cabinets, should not be left in the
-              bins, in the bin room, or any other common areas. Electronic waste items that can not
-              fit in the e-waste bin should be disposed of in the hard waste collection. Please
-              check out the notice for hard waste collection in the mailroom.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
-        <div className='w3-col l3 m3 s12 w3-margin-bottom'>
-          <div className='w3-display-container'>
             <img src='./images/news/news_2021-09-20.png' alt='House' style={fullWidthStyle} />
             <div className={css.news_last_update}>Last updated: 20/09/2021</div>
           </div>
@@ -119,6 +99,26 @@ export const News = () => (
             <p className={css.news_paragraph}>
               If your apartment is on Level 1, 2, or 3 and facing Haines Street, please ensure your
               windows are closed for the day.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
+        <div className='w3-col l3 m3 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
+            <img src='./images/news/news_2021-07-13.png' alt='House' style={fullWidthStyle} />
+            <div className={css.news_last_update}>Last updated: 13/07/2021</div>
+          </div>
+        </div>
+        <div className='w3-col l9 m9 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
+            <h4 className={css.news_title}>Hard waste & e waste</h4>
+            <p className={css.news_paragraph}>
+              Hard waste, including chairs, tables, and storage cabinets, should not be left in the
+              bins, in the bin room, or any other common areas. Electronic waste items that can not
+              fit in the e-waste bin should be disposed of in the hard waste collection. Please
+              check out the notice for hard waste collection in the mailroom.
             </p>
           </div>
         </div>
