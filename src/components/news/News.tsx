@@ -42,6 +42,64 @@ export const News = () => (
       <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
         <div className='w3-col l3 m3 s12 w3-margin-bottom'>
           <div className='w3-display-container'>
+            <img src='./images/news/news_2021-10-11.png' alt='House' style={fullWidthStyle} />
+            <div className={css.news_last_update}>Last updated: 11/10/2021</div>
+          </div>
+        </div>
+        <div className='w3-col l9 m9 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
+            <h4 className={css.news_title}>Wet paint</h4>
+            <p className={css.news_paragraph}>
+              Scratches on common area walls will be patched up on Thursday 14/10/2021. After that,
+              “Wet Paint” stickers will be displayed around the area to remind residents to avoid
+              touching the areas until the stickers are removed.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
+        <div className='w3-col l3 m3 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
+            <img src='./images/news/news_2021-09-20.png' alt='House' style={fullWidthStyle} />
+            <div className={css.news_last_update}>Last updated: 20/09/2021</div>
+          </div>
+        </div>
+        <div className='w3-col l9 m9 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
+            <h4 className={css.news_title}>Terrace heaters are now ready for residents to use</h4>
+            <p className={css.news_paragraph}>
+              As approved by the OC committee, heaters have been installed on Level 4 terrace.
+              Residents can now use the heaters following the operation instructions displayed on
+              the wall.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
+        <div className='w3-col l3 m3 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
+            <img src='./images/news/news_2021-07-13.png' alt='House' style={fullWidthStyle} />
+            <div className={css.news_last_update}>Last updated: 13/07/2021</div>
+          </div>
+        </div>
+        <div className='w3-col l9 m9 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
+            <h4 className={css.news_title}>Hard waste & e waste</h4>
+            <p className={css.news_paragraph}>
+              Hard waste, including chairs, tables, and storage cabinets, should not be left in the
+              bins, in the bin room, or any other common areas. Electronic waste items that can not
+              fit in the e-waste bin should be disposed of in the hard waste collection. Please
+              check out the notice for hard waste collection in the mailroom.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
+        <div className='w3-col l3 m3 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
             <img src='./images/news/news_2021-09-23.jpg' alt='House' style={fullWidthStyle} />
             <div className={css.news_last_update}>Last updated: 20/09/2021</div>
           </div>
