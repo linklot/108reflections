@@ -42,6 +42,36 @@ export const News = () => (
       <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
         <div className='w3-col l3 m3 s12 w3-margin-bottom'>
           <div className='w3-display-container'>
+            <img src='./images/news/news_2021-10-27.jpg' alt='House' style={fullWidthStyle} />
+            <div className={css.news_last_update}>Last updated: 27/10/2021</div>
+          </div>
+        </div>
+        <div className='w3-col l9 m9 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
+            <h4 className={css.news_title}>Annual Pest Control Treatment</h4>
+            <p className={css.news_paragraph}>
+            Subject to the weather conditions on the day, pest control treatment will be carried out on <strong>Monday 01/11/2021 between 8 am and 12 pm</strong>. 
+            </p>
+            <p><strong>Treatment Areas:</strong></p>
+            <p>Building perimeter, garden beds on Level 4, and Bin room areas in the car park</p>
+            <p>
+              It is advised by the pest control contractor as a precaution that residents
+              <ul>
+                <li>Do not walk on or touch treated areas until dry</li>
+                <li>Keep any pets away from treated areas during and after treatment for approximately 3 hours</li>
+                <li>Do not leave pets on the balcony of any apartment on Ground Level and Level 1, or on any balcony on Level 4 facing the communal terrace, during and after treatment for approximately 3 hours</li>
+              </ul>
+            </p>
+            <p>
+              Please contact Building Manager on 0404 573 762 / 0490 792 204 during business hours or email to bm@108reflections.com.au if you have any further questions or concerns.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
+        <div className='w3-col l3 m3 s12 w3-margin-bottom'>
+          <div className='w3-display-container'>
             <img src='./images/news/news_2021-10-11.png' alt='House' style={fullWidthStyle} />
             <div className={css.news_last_update}>Last updated: 11/10/2021</div>
           </div>
