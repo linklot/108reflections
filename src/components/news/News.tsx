@@ -39,6 +39,41 @@ export const News = () => (
         </h3>
       </div>
 
+    <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
+        <div className='w3-col l3 m3 s12 w3-margin-bottom'>
+            <div className='w3-display-container'>
+            <img src='./images/news/news_2022-01-17-2.jpg' alt='House' style={fullWidthStyle} />
+            <div className={css.news_last_update}>Last updated: 17/01/2022</div>
+            </div>
+        </div>
+        <div className='w3-col l9 m9 s12 w3-margin-bottom'>
+            <div className='w3-display-container'>
+            <h4 className={css.news_title}>Roof Solar Panels Installation</h4>
+            <p>Roof solar panels installation has been rescheduled to be carried out starting 19/01/2022.</p>
+            <p>The works will be carried out over four weekdays from Wednesday 19/01/2022 to Monday 24/01/2022.</p>
+            <p>Planned working hours are between 7:30 am and 3:30 pm. Power tools will not be used before 8:30 am.</p>
+            <p>There will be no interruption to the power supply to individual apartments.</p>
+            </div>
+        </div>
+    </div>
+
+    <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
+        <div className='w3-col l3 m3 s12 w3-margin-bottom'>
+            <div className='w3-display-container'>
+            <img src='./images/news/news_2022-01-17-1.jpg' alt='House' style={fullWidthStyle} />
+            <div className={css.news_last_update}>Last updated: 17/01/2022</div>
+            </div>
+        </div>
+        <div className='w3-col l9 m9 s12 w3-margin-bottom'>
+            <div className='w3-display-container'>
+            <h4 className={css.news_title}>Tile Maintenance – Ground Floor and Lifts</h4>
+            <p>Maintenance work for tiles on Ground floor and in the lifts has been scheduled for Tuesday 25/01/2022.</p>
+            <p>Planned working hours are between 8 am and 5 pm. Power tools will not be used before 8:30 am.</p>
+            <p>We will work with the contractor to ensure minimal inconvenience and disruption to the traffic on Ground floor. </p>
+            </div>
+        </div>
+    </div>
+
       <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
         <div className='w3-col l3 m3 s12 w3-margin-bottom'>
           <div className='w3-display-container'>
