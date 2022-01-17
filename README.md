@@ -16,3 +16,5 @@ npm start // to run on local
 ```
 npm run-script build // to build a release
 ```
+
+EOF
