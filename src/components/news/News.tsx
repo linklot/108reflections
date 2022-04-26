@@ -32,12 +32,28 @@ export const News = () => (
     </header>
 
     <div className='w3-content w3-padding' style={maxWidthStyle}>
-      {/* News section */}
-      <div className='w3-container w3-padding-32'>
-        <h3 className='w3-border-bottom w3-border-light-grey w3-padding-16'>
-          <i className='fas fa-bullhorn w3-text-teal'></i> News
-        </h3>
-      </div>
+        {/* News section */}
+        <div className='w3-container w3-padding-32'>
+            <h3 className='w3-border-bottom w3-border-light-grey w3-padding-16'>
+            <i className='fas fa-bullhorn w3-text-teal'></i> News
+            </h3>
+        </div>
+
+        <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
+            <div className='w3-col l3 m3 s12 w3-margin-bottom'>
+                <div className='w3-display-container'>
+                <img src='./images/news/news_2022-04-26.jpg' alt='House' style={fullWidthStyle} />
+                <div className={css.news_last_update}>Last updated: 26/04/2022</div>
+                </div>
+            </div>
+            <div className='w3-col l9 m9 s12 w3-margin-bottom'>
+                <div className='w3-display-container'>
+                <h4 className={css.news_title}>Carpet Professional Cleaning</h4>
+                <p>Professional cleaning of common area carpets will be carried out on <strong>Friday 29/04/2022</strong>.</p>
+                <p>Carpets in the corridors from Level 1 to Level 12 will be cleaned. Planned working hours are between <strong>9:30 am</strong> and <strong>3:00 pm</strong>.</p>
+                </div>
+            </div>
+        </div>
 
     <div className='w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey'>
         <div className='w3-col l3 m3 s12 w3-margin-bottom'>
