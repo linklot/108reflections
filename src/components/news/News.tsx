@@ -46,6 +46,37 @@ export const News = () => (
         <div className="w3-col l3 m3 s12 w3-margin-bottom">
           <div className="w3-display-container">
             <img
+              src="./images/news/news_2022-11-09.jpg"
+              alt="House"
+              style={fullWidthStyle}
+            />
+            <div className={css.news_last_update}>Last updated: 09/11/2022</div>
+          </div>
+        </div>
+        <div className="w3-col l9 m9 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <h4 className={css.news_title}>Chute Cleaning</h4>
+            <p>
+              Chute cleaning has been scheduled for Tuesday 15/11/2022 between{" "}
+              <strong>8:30am and 2pm</strong>.
+            </p>
+            <p>
+              Cleaners will access and work in chute rooms on all levels and the
+              bin room on Ground Level.
+            </p>
+            <p>
+              Please do not use the chutes on your level during those hours. If
+              you need to dispose of waste, please take to the bin room on
+              Ground Level in the car park directly.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+        <div className="w3-col l3 m3 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <img
               src="./images/news/news_2022-09-16_1.png"
               alt="House"
               style={fullWidthStyle}
