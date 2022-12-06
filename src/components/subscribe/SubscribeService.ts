@@ -15,7 +15,7 @@ export class SubscribeService {
             email: state.email,
         };
 
-        this.bookingClient.createBooking('https://reflectionsbooking.herokuapp.com/bookings/subscribe', subscribeModel);
+        this.bookingClient.createBooking('https://reflectionsbooking-heroku-22.herokuapp.com/bookings/subscribe', subscribeModel);
 
         return true;
     }

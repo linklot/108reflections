@@ -356,9 +356,9 @@ export default class Bookings extends React.Component<IProps, IState> {
         <div className='w3-content w3-margin-top' style={maxWidthStyle}>
           <div className='w3-container w3-margin-top'>
             <div className='w3-col l12 m12 s12 w3-margin-bottom'>
-              <h3>Due to technical issues, the online booking function is not available at the moment. Please email us on <a href='mailto:bm@108reflections.com.au'>bm@108reflections.com.au</a> for any booking request.</h3>
-              <div>05 December 2022</div>
-              {/* <p>Please allow a few seconds for the page to load on the first click.</p>
+              {/* <h3>Due to technical issues, the online booking function is not available at the moment. Please email us on <a href='mailto:bm@108reflections.com.au'>bm@108reflections.com.au</a> for any booking request.</h3>
+              <div>05 December 2022</div> */}
+              <p>Please allow a few seconds for the page to load on the first click.</p>
               <p>
                 Booking request will be reviewed and processed during working hours on a first come,
                 first served basis.
@@ -373,12 +373,12 @@ export default class Bookings extends React.Component<IProps, IState> {
                   bm@108reflections.com.au
                 </a>
                 .
-              </p> */}
+              </p>
             </div>
           </div>
         </div>
 
-        {/* <div className='w3-content w3-margin-top' style={maxWidthStyle}>
+        <div className='w3-content w3-margin-top' style={maxWidthStyle}>
           <div className='w3-container w3-margin-top'>
             <div className='w3-col l12 m12 s12 w3-margin-bottom'>
               <button className={bbq_class} onClick={this.changeBookingMode(BookingType.BBQ)}>
@@ -398,16 +398,16 @@ export default class Bookings extends React.Component<IProps, IState> {
               </button>
             </div>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div
+        <div
           className={`w3-content ${this.state.hideNote ? css.hideForm : css.showForm}`}
           style={maxWidthStyle}
         >
           <div className='w3-container'>
             <div className='w3-col l12 m12 s12 w3-margin-bottom'>{this.state.bookingNote}</div>
           </div>
-        </div> */}
+        </div>
 
         <div
           className={`w3-content ${this.state.hideForm ? css.hideForm : css.showForm}`}

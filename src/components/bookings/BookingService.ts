@@ -24,7 +24,7 @@ export class BookingService {
     };
 
     this.bookingClient.createBooking(
-      'https://reflectionsbooking.herokuapp.com/bookings',
+      'https://reflectionsbooking-heroku-22.herokuapp.com/bookings',
       bookingModel
     );
 
@@ -35,7 +35,7 @@ export class BookingService {
     const moments: Moment[] = [];
 
     await this.bookingClient
-      .allBookingsByTypeAndDate('https://reflectionsbooking.herokuapp.com/bookings', type, date)
+      .allBookingsByTypeAndDate('https://reflectionsbooking-heroku-22.herokuapp.com/bookings', type, date)
       .then((bookings) => {
         for (let booking of bookings) {
           const bookingTime = moment(`${date} ${booking.time}`, 'YYYY-MM-DD HH:mm a');
