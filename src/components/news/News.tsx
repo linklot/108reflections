@@ -46,6 +46,33 @@ export const News = () => (
         <div className="w3-col l3 m3 s12 w3-margin-bottom">
           <div className="w3-display-container">
             <img
+              src="./images/news/news_2023-01-10.jpg"
+              alt="House"
+              style={fullWidthStyle}
+            />
+            <div className={css.news_last_update}>Last updated: 10/01/2023</div>
+          </div>
+        </div>
+        <div className="w3-col l9 m9 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <h4 className={css.news_title}>Tile Maintenance</h4>
+            <p>
+            Maintenance work for tiles on residential levels and in the lifts will be carried out on weekdays starting on <strong>Thursday 12/01/2023</strong> this week and finishing on <strong>Thursday 19/01/2023</strong> next week. 
+            </p>
+            <p>
+            Planned working hours are between <strong>8 am and 5 pm</strong>. Power tools will not be used before 8:30 am.
+            </p>
+            <p>
+            We will work with the contractor to ensure minimal inconvenience and disruption to the traffic.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+        <div className="w3-col l3 m3 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <img
               src="./images/news/news_2022-11-09.jpg"
               alt="House"
               style={fullWidthStyle}
