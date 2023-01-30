@@ -67,7 +67,7 @@ export const Contact = () => (
             <h3 className='w3-text-blue'>
               <i className='fas fa-tint'></i> WATER SUPPLY
             </h3>
-            <p>CITY WEST WATER - 132 642</p>
+            <p>Greater Western Water (formerly known as City West Water) - 131 691</p>
             <h3 className={`w3-text-blue ${css.supplier}`}>
               <i className='fas fa-bolt'></i> ELECTRICITY/ HOT WATER / GAS COOKTOP
             </h3>
@@ -84,7 +84,7 @@ export const Contact = () => (
               <i className='fas fa-parking'></i> CAR STACKER INDUCTION
             </h3>
             <p>
-              <a href='mailto:admin@meiaus.com.au'>admin@meiaus.com.au</a> (fees apply)
+            Vertimax - <a href='mailto:info@vertimaxaustralia.com.au'>info@vertimaxaustralia.com.au</a> (induction fee applies)
             </p>
             <h3 className={`w3-text-blue ${css.supplier}`}>
               <i className='fas fa-car'></i> CAR SLIDER INDUCTION

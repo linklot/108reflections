@@ -46,6 +46,33 @@ export const News = () => (
         <div className="w3-col l3 m3 s12 w3-margin-bottom">
           <div className="w3-display-container">
             <img
+              src="./images/news/news_2023-01-30.png"
+              alt="House"
+              style={fullWidthStyle}
+            />
+            <div className={css.news_last_update}>Last updated: 30/01/2023</div>
+          </div>
+        </div>
+        <div className="w3-col l9 m9 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <h4 className={css.news_title}>Magpie swooping at front entry</h4>
+            <p>
+              Recently a young magpie is seen swooping towards our front sliding door repeatedly and attacking windows of cars parked in front of the building.
+            </p>
+            <p>
+            Tips about stopping birds from attacking car windows can be found on the following RSPCA website link.
+            </p>
+            <p>
+            <a href="https://kb.rspca.org.au/knowledge-base/how-can-i-stop-birds-flying-into-my-windows-or-attacking-my-car" target="_blank">https://kb.rspca.org.au/knowledge-base/how-can-i-stop-birds-flying-into-my-windows-or-attacking-my-car</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+        <div className="w3-col l3 m3 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <img
               src="./images/news/news_2023-01-10.jpg"
               alt="House"
               style={fullWidthStyle}
