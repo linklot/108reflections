@@ -10,6 +10,9 @@ export class BookingNotes {
         <li>Users are encouraged to clean the BBQ before use for hygiene reasons and are required to clean the BBQ after use (including the drip tray which needs to be lifted, pulled out and cleaned when it cools down).</li>
         <li>Please check the <a href="/images/BBQ_cleaning_Critical_Areas.jpg" target="_blank">picture</a> for critical areas to be cleaned and <a href="/pdf/Level_4_Terrace_Facilities_Rules.pdf" target="_blank">Level 4 Terrace Facilities Rules</a> for detailed information.</li>
     </ul>
+    <p>
+    If you spill any liquid of risk on tiles, please try to clean as soon as possible to minimise the damage. Natural stone tiles are porous and very acid sensitive. Although professional sealer has been applied, oil, grease, or anything acidic, including vinegar, lemon, red/white wine, coffee, and tomato, may still cause staining in the stone and should not be allowed to stay on the surface.
+    </p>
     `;
 
   moveNote = `

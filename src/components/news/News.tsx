@@ -82,12 +82,12 @@ export const News = () => (
         </div>
         <div className="w3-col l9 m9 s12 w3-margin-bottom">
           <div className="w3-display-container">
-            <h4 className={css.news_title}>Magpie swooping at front entry</h4>
+            <h4 className={css.news_title}>Magpie-lark swooping at front entry</h4>
             <p>
-              Recently a young magpie is seen swooping towards our front sliding door repeatedly and attacking windows of cars parked in front of the building.
+              Recently a magpie-lark is seen swooping towards our front sliding door repeatedly and attacking windows of cars parked in front of the building.
             </p>
             <p>
-            Tips about stopping birds from attacking car windows can be found on the following RSPCA website link.
+              Tips about stopping birds from attacking car windows can be found on the following RSPCA website link.
             </p>
             <p>
             <a href="https://kb.rspca.org.au/knowledge-base/how-can-i-stop-birds-flying-into-my-windows-or-attacking-my-car" target="_blank">https://kb.rspca.org.au/knowledge-base/how-can-i-stop-birds-flying-into-my-windows-or-attacking-my-car</a>
