@@ -145,7 +145,7 @@ export const RulesForms = () => (
                 </a>
               </li>
               <li>
-                <a href='https://www.turnbullcook.com.au/apartment-key-request/' target='_blank'>
+                <a href='https://www.turnbullcook.com.au/order-a-strata-key/' target='_blank'>
                   Apartment Key Order
                 </a>
               </li>
