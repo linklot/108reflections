@@ -13,6 +13,10 @@ const fullWidthStyle = {
   width: "100%",
 };
 
+const indent = {
+  paddingLeft: "40px",
+};
+
 export const News = () => (
   <div>
     <header
@@ -40,6 +44,43 @@ export const News = () => (
         <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">
           <i className="fas fa-bullhorn w3-text-teal"></i> News
         </h3>
+      </div>
+
+      <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+        <div className="w3-col l3 m3 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <img
+              src="./images/news/2023-09-28.png"
+              alt="House"
+              style={fullWidthStyle}
+            />
+            <div className={css.news_last_update}>Last updated: 28/09/2023</div>
+          </div>
+        </div>
+        <div className="w3-col l9 m9 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <h4 className={css.news_title}>Annual Pest Control Treatment</h4>
+            <p>
+              Subject to the weather conditions on the day, pest control treatment will be carried out on Friday 06/10/2022 between 8 am and 12 pm.
+            </p>
+            <p>
+              Treatment Areas:
+            </p>
+            <p>
+              <div style={indent}>Building perimeter, garden beds on Level 4, external rock path on Level 10, and Bin room areas in the car park</div>
+            </p>
+            <p>
+              It is advised by the pest control contractor as a precaution that residents:
+            </p>
+            <p>
+              <ul>
+                <li>Do not walk on or touch treated areas until dry</li>
+                <li>Keep any pets away from treated areas during and after treatment for approximately 3 hours</li>
+                <li>Do not leave pets on the balcony of any apartment on Ground Level and Level 1, or on any balcony on Level 4 facing the communal terrace, during and after treatment for approximately 3 hours</li>
+              </ul>
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
