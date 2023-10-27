@@ -140,7 +140,7 @@ export const RulesForms = () => (
           <div className='w3-display-container w3-left'>
             <ul style={rulesList}>
               <li>
-                <a href='../pdf/Fob_Remote_Order_Form_Aug_2021.pdf' target='_blank'>
+                <a href='../pdf/Fob_Remote_Order_Form_Oct_2023.pdf' target='_blank'>
                   Fob / Remote Order Form
                 </a>
               </li>
