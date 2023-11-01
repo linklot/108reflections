@@ -50,6 +50,45 @@ export const News = () => (
         <div className="w3-col l3 m3 s12 w3-margin-bottom">
           <div className="w3-display-container">
             <img
+              src="./images/news/2023-11-01.png"
+              alt="House"
+              style={fullWidthStyle}
+            />
+            <div className={css.news_last_update}>Last updated: 01/11/2023</div>
+          </div>
+        </div>
+        <div className="w3-col l9 m9 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <h4 className={css.news_title}>Car Park Professional Cleaning</h4>
+            <p>
+              Car park professional cleaning has been scheduled to be carried out on <strong>Monday 20 November 2023 between 10 am to 6 pm</strong>.
+            </p>
+            <p>
+              Cleaning contractors will start from Upper Ground Level and work their way down to Basement 2.
+            </p>
+            <p>
+              To ensure full cleaning in the car park areas and avoid water damage please
+            </p>
+            <p>
+              <ul>
+                <li>Do not park your vehicle in your parking space for the day, and</li>
+                <li>Do not leave items on the floor.</li>
+              </ul>
+            </p>
+            <p>
+              You may leave your vehicle in your parking space If it is on a slider/stacker platform.
+            </p>
+            <p>
+              Please be extra cautious in the car park on the day when the cleaning is being carried out. There will be wet floors and motorised machinery working. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+        <div className="w3-col l3 m3 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <img
               src="./images/news/2023-09-28.png"
               alt="House"
               style={fullWidthStyle}
