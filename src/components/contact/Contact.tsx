@@ -84,7 +84,7 @@ export const Contact = () => (
               <i className='fas fa-parking'></i> CAR STACKER INDUCTION
             </h3>
             <p>
-            Vertimax - <a href='mailto:info@vertimaxaustralia.com.au'>info@vertimaxaustralia.com.au</a> (induction fee applies)
+            Capstone Industries - <a href='mailto:service@capstoneindustries.com.au'>service@capstoneindustries.com.au</a> (induction fee applies)
             </p>
             <h3 className={`w3-text-blue ${css.supplier}`}>
               <i className='fas fa-car'></i> CAR SLIDER INDUCTION
