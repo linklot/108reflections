@@ -50,6 +50,30 @@ export const News = () => (
         <div className="w3-col l3 m3 s12 w3-margin-bottom">
           <div className="w3-display-container">
             <img
+              src="./images/news/2024-02-19.jpg"
+              alt="House"
+              style={fullWidthStyle}
+            />
+            <div className={css.news_last_update}>Last updated: 19/02/2024</div>
+          </div>
+        </div>
+        <div className="w3-col l9 m9 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <h4 className={css.news_title}>Carpet Professional Cleaning</h4>
+            <p>
+              Professional cleaning of common area carpets has been scheduled for Friday 23/02/2024.
+            </p>
+            <p>
+              Carpets in the corridors from Level 1 to Level 12 will be cleaned. Planned working hours are between 8 am and 3 pm.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+        <div className="w3-col l3 m3 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <img
               src="./images/news/2023-12-18.jpg"
               alt="House"
               style={fullWidthStyle}
