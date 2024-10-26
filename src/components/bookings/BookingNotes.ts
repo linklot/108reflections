@@ -7,6 +7,7 @@ export class BookingNotes {
         <li>Bookings are for the BBQ facility only (not extending to the whole terrace area).</li>
         <li>Booking notice will be displayed in the BBQ area before your booked date. </li>
         <li>Maximum booking time is 2 hours, you may continue if there is no booking after you.</li>
+        <li>Terrace closes at 10pm every day. Lights automatically turn off at 10pm and fobs do not give lift access to Level 4. Residents need to finish and leave by 10pm.</li>
         <li>Users are encouraged to clean the BBQ before use for hygiene reasons and are required to clean the BBQ after use (including the drip tray which needs to be lifted, pulled out and cleaned when it cools down).</li>
         <li>Please check the <a href="/images/BBQ_cleaning_Critical_Areas.jpg" target="_blank">picture</a> for critical areas to be cleaned and <a href="/pdf/Level_4_Terrace_Facilities_Rules.pdf" target="_blank">Level 4 Terrace Facilities Rules</a> for detailed information.</li>
     </ul>
