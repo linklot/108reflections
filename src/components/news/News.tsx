@@ -50,6 +50,33 @@ export const News = () => (
         <div className="w3-col l3 m3 s12 w3-margin-bottom">
           <div className="w3-display-container">
             <img
+              src="./images/news/2025-01-07.jpg"
+              alt="House"
+              style={fullWidthStyle}
+            />
+            <div className={css.news_last_update}>Last updated: 07/01/2025</div>
+          </div>
+        </div>
+        <div className="w3-col l9 m9 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <h4 className={css.news_title}>External Windows Cleaning</h4>
+            <p>
+              Building external window cleaning has been scheduled for from Monday 13/01/2025 to Thursday 16/01/2025 starting at 8am every day subject to weather conditions.
+            </p>
+            <p>
+              Cleaning contractors will abseil down and clean the windows and balustrades starting on the southwest side of the building (facing Macaulay Rd), northwest side (facing neighbouring car park), northeast side (facing Shiel St), then southeast side (facing Haines St). The arrangements may be adjusted according to wind conditions.
+            </p>
+            <p>
+              You may wish to close your blinds during the time to ensure privacy within your apartments.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+        <div className="w3-col l3 m3 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <img
               src="./images/news/2024-11-12.jpg"
               alt="House"
               style={fullWidthStyle}
