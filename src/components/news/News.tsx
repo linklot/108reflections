@@ -54,14 +54,14 @@ export const News = () => (
               alt="House"
               style={fullWidthStyle}
             />
-            <div className={css.news_last_update}>Last updated: 03/08/2025</div>
+            <div className={css.news_last_update}>Last updated: 06/08/2025</div>
           </div>
         </div>
         <div className="w3-col l9 m9 s12 w3-margin-bottom">
           <div className="w3-display-container">
             <h4 className={css.news_title}>Cladding and Lower Front Windows Cleaning</h4>
             <p>
-              Subject to weather conditions, maintenance cleaning of the front cladding will take place on Thursday, 07/08/2025, starting at 8am.
+              Subject to weather conditions, maintenance cleaning of the front cladding will take place on Monday, 18/08/2025, starting at 8am.
             </p>
             <p>
               Cleaning contractors will use extension water fed poles to clean the front cladding of the building. Windows and balustrades in the area will also be cleaned at the same time to remove water marks coming from the process.
