@@ -50,6 +50,30 @@ export const News = () => (
         <div className="w3-col l3 m3 s12 w3-margin-bottom">
           <div className="w3-display-container">
             <img
+              src="./images/news/2025-08-20.jpg"
+              alt="House"
+              style={fullWidthStyle}
+            />
+            <div className={css.news_last_update}>Last updated: 20/08/2025</div>
+          </div>
+        </div>
+        <div className="w3-col l9 m9 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <h4 className={css.news_title}>Update on Arden station</h4>
+            <p>
+              The new underground Arden Station, located near the corner of Arden and Laurens Streets - just 450 metres from our building - is scheduled to open in late 2025, according to Victoria’s Big Build.
+            </p>
+            <p>
+              The station will sit at the heart of a new employment and innovation precinct, set to accommodate thousands of new jobs and homes. Designed as a sustainable transport hub, Arden Station will be only a short walk from the North Melbourne Recreation Centre, Arden Street Oval, and the Route 57 tram.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+        <div className="w3-col l3 m3 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <img
               src="./images/news/2025-08-03.jpg"
               alt="House"
               style={fullWidthStyle}
