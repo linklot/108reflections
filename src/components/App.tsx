@@ -11,7 +11,6 @@ import { RulesForms } from './rulesForms/RulesForms';
 import Bookings from './bookings/Bookings';
 import { Contact } from './contact/Contact';
 import { BookingType } from '../models/BookingType';
-import Subscribe from './subscribe/Subscribe';
 
 export default class App extends Component<any, any> {
     state: {
@@ -50,7 +49,6 @@ export default class App extends Component<any, any> {
                     <NavLink to="/news" className="w3-bar-item w3-button" onClick={this.hideSideMenu}>NEWS</NavLink>
                     <NavLink to="/rulesForms" className="w3-bar-item w3-button" onClick={this.hideSideMenu}>RULES &amp; FORMS</NavLink>
                     <NavLink to="/bookings" className="w3-bar-item w3-button" onClick={this.hideSideMenu}>BOOKINGS</NavLink>
-                    <NavLink to="/subscribe" className="w3-bar-item w3-button" onClick={this.hideSideMenu}>SUBSCRIBE</NavLink>
                     <NavLink to="/contact" className="w3-bar-item w3-button" onClick={this.hideSideMenu}>CONTACT</NavLink>
                 </nav>
                 {/* Side Menu */}
@@ -70,7 +68,6 @@ export default class App extends Component<any, any> {
                             <NavLink to="/news" className="w3-bar-item w3-button">NEWS</NavLink>
                             <NavLink to="/rulesForms" className="w3-bar-item w3-button">RULES &amp; FORMS</NavLink>
                             <NavLink to="/bookings" className="w3-bar-item w3-button">BOOKINGS</NavLink>
-                            <NavLink to="/subscribe" className="w3-bar-item w3-button">SUBSCRIBE</NavLink>
                             <NavLink to="/contact" className="w3-bar-item w3-button">CONTACT</NavLink>
                         </div>
                     </div>
@@ -80,7 +77,6 @@ export default class App extends Component<any, any> {
                     <Route path="/news" component={News} />
                     <Route path="/rulesForms" component={RulesForms} />
                     <Route path="/bookings" render={(routeProps) => (<Bookings bookingMode={BookingType.NA} />)} />
-                    <Route path="/subscribe" component={Subscribe} />
                     <Route path="/contact" component={Contact} />
                 </div>
 

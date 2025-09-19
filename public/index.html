@@ -12,32 +12,13 @@
     <link rel="stylesheet" href="./w3.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
 </head>
 
 <body>
     <div id="root"></div>
     <script src="./main.bundle.js"></script>
-
-    <script>
-        function initMap() {
-            var revenue = {
-                lat: -37.798656,
-                lng: 144.943745
-            };
-
-            const map = new google.maps.Map(
-                document.getElementById('myMap'),
-                { zoom: 15, center: revenue }
-            );
-
-            const marker = new google.maps.Marker({
-                position: revenue,
-                map: map
-            });
-        };
-    </script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeSvev37L7LK8UsyAk0L9XleKXddxGuPw&callback=initMap"></script>
 
     <!-- Default Statcounter code for 108reflections https://108reflections.com.au-->
     <script type="text/javascript">
@@ -54,5 +35,28 @@
     </noscript>
     <!-- End of Statcounter Code -->
 </body>
+
+<script>
+    L.mapquest.key = 'HmqOvNUkQnJj9meVNYhanH0K8UOFAcSD';
+    // 'map' refers to a <div> element with the ID map
+    var myMap = L.mapquest.map('myMap', {
+        center: [-37.79862, 144.94378],
+        layers: L.mapquest.tileLayer('map'),
+        zoom: 16
+    });
+
+    L.marker([-37.79862, 144.94378], { // Latitude and Longitude
+        icon: L.mapquest.icons.marker({
+            primaryColor: '#FF0000',
+            secondaryColor: '#FFFFFF',
+            shadow: true,
+            size: 'md',
+            symbol: '108'
+        }),
+        draggable: false // Set to true if you want the marker to be draggable
+    })
+    .bindPopup('Reflections Apartments') // Optional popup content
+    .addTo(myMap);
+</script>
 
 </html>
