@@ -2,29 +2,106 @@ export class BookingNotes {
   constructor() {}
 
   bbqNote = `
+    <strong>BBQ Booking Information</strong>
+    <p></p>
+    <strong>Booking Requirements</strong>
+    <p></p>
     <ul>
-        <li>Residents are encouraged to make a booking at least one business day in advance to ensure it is processed.</li>
-        <li>Bookings are for the BBQ facility only (not extending to the whole terrace area).</li>
-        <li>Booking notice will be displayed in the BBQ area before your booked date. </li>
-        <li>Maximum booking time is 2 hours, you may continue if there is no booking after you.</li>
-        <li>Terrace closes at 10pm every day. Lights automatically turn off at 10pm and fobs do not give lift access to Level 4. Residents need to finish and leave by 10pm.</li>
-        <li>Users are encouraged to clean the BBQ before use for hygiene reasons and are required to clean the BBQ after use (including the drip tray which needs to be lifted, pulled out and cleaned when it cools down).</li>
-        <li>Please check the <a href="/images/BBQ_cleaning_Critical_Areas.jpg" target="_blank">picture</a> for critical areas to be cleaned and <a href="/pdf/Level_4_Terrace_Facilities_Rules.pdf" target="_blank">Level 4 Terrace Facilities Rules</a> for detailed information.</li>
+        <li>BBQ use must be booked <strong>at least one business day in advance</strong> to allow time for processing.</li>
+        <li>BBQ bookings are for the BBQ facility only and do not reserve the entire terrace area.</li>
+        <li>A booking notice will be displayed in the BBQ area before your booking.</li>
+        <li><strong>Maximum booking duration: 2 hours.</strong> If there is no booking after your session, you may continue using the BBQ.</li>
     </ul>
-    <p>
-    If you spill any liquid of risk on tiles, please try to clean as soon as possible to minimise the damage. Natural stone tiles are porous and very acid sensitive. Although professional sealer has been applied, oil, grease, or anything acidic, including vinegar, lemon, red/white wine, coffee, and tomato, may still cause staining in the stone and should not be allowed to stay on the surface.
-    </p>
-    `;
+    <p></p>
+    <strong>Terrace Closing Time</strong>
+    <ul>
+        <li>The Level 4 Terrace <strong>closes at 10 pm</strong> daily.</li>
+        <li>Lights will automatically switch off at 10 pm, and lift fob access to Level 4 will no longer be available.</li>
+        <li>All users must finish and leave the area by 10 pm.</li>
+    </ul>
+    <p></p>
+    <strong>Cleaning Requirements</strong>
+    <ul>
+        <li>Residents are encouraged to wipe the BBQ before use for hygiene reasons.</li>
+        <li>The BBQ <strong>must be cleaned after use,</strong> including the drip tray (lift and pull out to clean once cooled).</li>
+        <li>Residents <strong>must bring and use their own cleaning tools and materials.</strong></li>
+        <li>Any items in the BBQ cabinet (other than the bin and replacement rubbish bags) have not been supplied by the Owners Corporation and may have been left by other residents.</li>
+        <li><strong>Do not pour cleaning water, grease, or chemicals into the planter boxes.</strong> Please use the designated sink.</li>
+        <li>If the bin is full, please remove the rubbish bag, dispose of it properly, and replace it with a new one. Replacement bags are stored in the cabinet where the bin is located.</li>
+    </ul>
+    <p></p>
+    <strong>Protecting the Terrace Surface</strong>
+    <ul>
+        <li>If any liquid or substance is spilled on the tiles, please <strong>clean it immediately</strong> to minimise potential damage.</li>
+        <li>The terrace is finished with natural stone tiles, which are porous and sensitive to acidic substances.</li>
+        <li>Oil, grease, or acidic liquids (such as vinegar, lemon, wine, coffee, and tomato-based products) may cause staining if left on the surface.</li>
+    </ul>
+    <p></p>
+    <strong>Further Information</strong>
+    <ul>
+        <li>Please refer to the <a href="https://108reflections.com.au/images/BBQ_cleaning_Critical_Areas.jpg" target="_blank">cleaning guide image</a> for critical areas that must be cleaned.</li>
+        <li>See the <a href="https://108reflections.com.au/pdf/Level_4_Terrace_Facilities_Rules.pdf" target="_blank">Level 4 Terrace Facilities Rules</a> for full details.</li>
+    </ul>
+  `;
 
   moveNote = `
-    <p><strong>Booking is essential and can only be made within working hours (Mon to Fri from 8am to 6pm, Sat from 9am to 1pm,  excluding public holidays).</strong></p>
-    <p>All the large items must be moved in/out via <strong>CAR PARK ENTRY ONLY</strong> not through <strong>ground foyer</strong>.</p>
-    <p>Building manager will lock one of the elevators and put up lift protection pads for moving for a maximum of 2 hours</p>
-    <p><strong>Lift Dimensions:</strong></p>
-    <p>Lift Entrance Size: 2100 mm high x 900 mm wide</p>
-    <p>Lift Internal Size: 1400 mm wide x 1970 mm deep x 2400 mm high</p>
-    <p>All the moving in/out must be done via <strong>CAR PARK ENTRY</strong>. If residents are using professional movers, public liability insurance certificate need to be provided. Once they arrive, they must contact building manager and fill out the indemnity form before starting to move in/out. </p>
-    `;
+    <strong>Moving In / Out - Booking & Rules</strong>
+    <p></p>
+    <strong>Booking</strong>
+    <p></p>
+    A moving booking is required and can only be made during business hours (excluding public holidays):
+    <br/>
+     Monday - Friday: 8 am - 6 pm
+    <br/>
+     Saturday: 9 am - 1 pm
+    <p></p>
+    <ul>
+        <li>When booking, provide the time your removalists are expected to <strong>arrive at Reflections,</strong> not the time they start at your old place.</li>
+        <li>Please respect the booked time and inform the building manager as soon as possible if your removalists are <strong>running late or arriving early.</strong></li>
+        <li>If removalists arrive significantly later than the booked time, the <strong>booking may need to be shortened or rescheduled</strong> depending on lift availability and business hours.</li>
+    </ul>
+    <strong>Moving Access</strong>
+    <ul>
+        <li><strong>All large items</strong> must be moved via the <strong>CAR PARK ENTRY ONLY.</strong></li>
+        <li>Moving large items through the ground floor foyer is not permitted for safety reasons.</li>
+    </ul>
+    <p></p>
+    <strong>Lift Use</strong>
+    <ul>
+        <li>The building manager will lock one lift and install <strong>lift protection pads</strong> for the move.</li>
+        <li>The lift may be reserved for <strong>a maximum of 2 hours.</strong> Residents and removalists must complete the move within the booked time.</li>
+    </ul>
+    <strong>Lift Dimensions:</strong>
+    <p></p>
+    Entrance: 2100 mm (H) × 900 mm (W)
+    <br/>
+    Internal: 1400 mm (W) × 1970 mm (D) × 2400 mm (H)
+    <p></p>
+    <strong>Removalists</strong>
+    <p></p>
+    Residents are responsible for ensuring their removalists are aware of and follow all building rules:
+    <ul>
+        <li>If using professional removalists, email their <strong>Public Liability Insurance Certificate</strong> before the moving date.</li>
+        <li>Upon arrival, removalists must contact the building manager and complete an <strong>indemnity form</strong> before starting the move.</li>
+        <li>Notify the building manager when the removalists are <strong>ready to start moving,</strong> and wait for the building manager to lock and operate the padded lift before commencing.</li>
+        <li>Advise your removalists that the <strong>building manager will be present and supervise the moving process.</strong></li>
+        <li>Advise your removalists that they must <strong>follow the building manager’s instructions</strong> throughout the move.</li>
+    </ul>
+    <p></p>
+    <strong>Parking</strong>
+    <ul>
+        <li>The building does not have a reserved loading zone.</li>
+        <li>Removalists may park on the kerbside in front of the building, subject to availability at the time.</li>
+    </ul>
+    <p></p>
+    <strong>Care of Common Areas</strong>
+    <ul>
+        <li>Take extra care when moving large items through common areas.</li>
+        <li>Pay particular attention to <strong>sprinkler heads, smoke detectors, and the lift ceiling,</strong> especially when rotating or tilting large items.</li>
+        <li><strong>Any damage caused to common property will be rectified at the resident’s or owner’s cost.</strong></li>
+    </ul>
+    <p></p>
+  `;
 
   hardWasteNote = `
     <p></p>
