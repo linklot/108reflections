@@ -50,6 +50,43 @@ export const News = () => (
         <div className="w3-col l3 m3 s12 w3-margin-bottom">
           <div className="w3-display-container">
             <img
+                src="./images/news/news_2021-10-27.jpg"
+                alt="House"
+                style={fullWidthStyle}
+            />
+            <div className={css.news_last_update}>Last updated: 29/09/2026</div>
+          </div>
+        </div>
+        <div className="w3-col l9 m9 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <h4 className={css.news_title}>Annual Pest Control Treatment</h4>
+            <p>
+              Subject to the weather conditions on the day, pest control treatment will be carried out on Monday 05/10/2026 between 9 am and 3 pm.
+            </p>
+            <p>
+              <strong>Treatment Areas:</strong>
+            </p>
+            <p>
+              Building perimeter, garden beds on Level 4, external rock path on Level 10, and Bin room areas in the car park.
+            </p>
+            <p>
+              It is advised by the pest control contractor as a precaution that residents
+            </p>
+            <p>
+              <ul>
+                  <li>Do not walk on or touch treated areas until dry.</li>
+                  <li>Keep any pets away from treated areas during and after treatment for approximately 3 hours.</li>
+                  <li>Do not leave pets on the balcony of any apartment on Ground Level and Level 1, any balcony on Level 10 facing Haines Street, or on any balcony on Level 4 facing the communal terrace, during and after treatment for approximately 3 hours.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="w3-row-padding w3-padding-32 w3-border-bottom w3-border-light-grey">
+        <div className="w3-col l3 m3 s12 w3-margin-bottom">
+          <div className="w3-display-container">
+            <img
                 src="./images/news/2025-02-17.jpg"
                 alt="House"
                 style={fullWidthStyle}
